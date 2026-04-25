@@ -1,11 +1,10 @@
-"""Filtre de contexte pour les sous-agents.
+"""Filtres de contexte pour les sous-agents.
 
 Logique extraite de google.adk.plugins.context_filter_plugin.
-Garde uniquement la dernière invocation dans llm_request.contents,
-ce qui correspond à : message de délégation de l'orchestrateur + tool calls propres à l'agent.
 """
 from __future__ import annotations
 
+import re
 from collections.abc import Sequence
 from typing import Optional
 
@@ -15,6 +14,10 @@ from google.adk.agents.callback_context import CallbackContext
 from google.adk.models.llm_request import LlmRequest
 from google.adk.models.llm_response import LlmResponse
 
+
+# ---------------------------------------------------------------------------
+# Helpers partagés
+# ---------------------------------------------------------------------------
 
 def _is_function_response_content(content: types.Content) -> bool:
     return bool(content.parts) and any(
@@ -27,7 +30,6 @@ def _is_human_user_content(content: types.Content) -> bool:
 
 
 def _get_invocation_start_indices(contents: Sequence[types.Content]) -> list[int]:
-    """Retourne les indices où commence chaque invocation utilisateur."""
     indices = []
     prev_was_human = False
     for i, content in enumerate(contents):
@@ -39,7 +41,6 @@ def _get_invocation_start_indices(contents: Sequence[types.Content]) -> list[int
 
 
 def _safe_split_index(contents: Sequence[types.Content], split_index: int) -> int:
-    """Recule split_index pour ne pas orpheliner des function_responses."""
     needed_call_ids: set[str] = set()
     for i in range(len(contents) - 1, -1, -1):
         parts = contents[i].parts
@@ -54,15 +55,15 @@ def _safe_split_index(contents: Sequence[types.Content], split_index: int) -> in
     return 0
 
 
+# ---------------------------------------------------------------------------
+# keep_last_invocation
+# ---------------------------------------------------------------------------
+
 def keep_last_invocation(
     callback_context: CallbackContext,
     llm_request: LlmRequest,
 ) -> Optional[LlmResponse]:
-    """before_model_callback : ne garde que la dernière invocation.
-
-    Le sous-agent ne voit que le message de délégation de l'orchestrateur
-    et ses propres tool calls / réponses. Tout l'historique antérieur est élidé.
-    """
+    """Garde uniquement la dernière invocation (message de délégation + tool calls propres)."""
     contents = llm_request.contents
     if not contents:
         return None
@@ -73,4 +74,69 @@ def keep_last_invocation(
 
     split = _safe_split_index(contents, starts[-1])
     llm_request.contents = contents[split:]
+    return None
+
+
+# ---------------------------------------------------------------------------
+# keep_orchestrator_context
+# ---------------------------------------------------------------------------
+
+_AGENT_TAG_RE = re.compile(r'^\[(\w+)\]')
+
+
+def _is_context_block(content: types.Content) -> bool:
+    """Vrai si le contenu est un bloc 'For context:' injecté par ADK."""
+    return bool(content.parts) and any(
+        part.text is not None and part.text.strip() == "For context:"
+        for part in content.parts
+    )
+
+
+def _filter_context_parts(parts: list[types.Part]) -> list[types.Part]:
+    """Garde le header 'For context:' et les parts qui référencent [orchestrator] ou aucun agent."""
+    kept = []
+    for part in parts:
+        if part.text is None:
+            kept.append(part)
+            continue
+        text = part.text.strip()
+        if text == "For context:":
+            kept.append(part)
+            continue
+        m = _AGENT_TAG_RE.match(text)
+        if m is None or m.group(1) == "orchestrator":
+            kept.append(part)
+    return kept
+
+
+def keep_orchestrator_context(
+    callback_context: CallbackContext,
+    llm_request: LlmRequest,
+) -> Optional[LlmResponse]:
+    """before_model_callback : filtre les blocs 'For context:' pour ne garder
+    que les events de l'orchestrator et les vrais messages utilisateur.
+
+    Les parts qui référencent d'autres sous-agents (ex. [med_finder]) sont supprimées.
+    Un bloc 'For context:' qui n'a plus de contenu utile après filtrage est entièrement retiré.
+    """
+    if not callback_context.state.get("current_med"):
+        callback_context.state["current_med"] = "Aucun médicament sélectionné pour cette session."
+
+    contents = llm_request.contents
+    if not contents:
+        return None
+
+    filtered: list[types.Content] = []
+    for content in contents:
+        if content.role != "user" or not _is_context_block(content):
+            filtered.append(content)
+            continue
+
+        kept_parts = _filter_context_parts(list(content.parts))
+        # Ne conserver le bloc que s'il reste des parts au-delà du header
+        meaningful = [p for p in kept_parts if p.text and p.text.strip() != "For context:"]
+        if meaningful:
+            filtered.append(types.Content(role=content.role, parts=kept_parts))
+
+    llm_request.contents = filtered
     return None

@@ -89,6 +89,19 @@ Lit la fiche officielle d'un médicament sur `base-donnees-publique.medicaments.
 
 **State produit :** `state["med_doc"] = {"cis": str, "tabs": {tab: {section_id: {"titre", "niveau", "contenu"}}}}`
 
+### ui (`agents/ui.py`)
+
+Interface Gradio locale pour tester les agents sans frontend externe.
+
+**Lancement :**
+```bash
+cd agents && uv run python ui.py   # http://localhost:7860
+```
+
+**Layout :** deux colonnes — chat à gauche, iframe de la fiche officielle ANSM à droite.
+
+**Pattern :** utilise directement `Runner` (ADK) en mode `run_async`. Chaque auteur ADK (`orchestrator`, `med_finder`, `med_documentation`) génère une bulle distincte avec titre et emoji. La fiche HTML est injectée dans `state["current_med_documentation"]` par `med_documentation` et affichée dans un `<iframe srcdoc>`.
+
 ### context_filter (`agents/context_filter.py`)
 
 Callbacks `before_model_callback` partagés par tous les agents.

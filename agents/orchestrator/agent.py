@@ -29,9 +29,7 @@ root_agent = Agent(
        par med_finder (CIS, nom, forme, statut, substances actives), appelle **med_documentation**
        avec le CIS et la question.
 
-    En pratique, med_documentation est OBLIGATOIRE dès que la question porte sur :
-    posologie, doses, comment prendre, contre-indications, effets indésirables, interactions,
-    grossesse, allaitement, conduite, surdosage, conservation, notice, recommandations HAS, etc.
+    En pratique, med_documentation est généralement OBLIGATOIRE.
 
     NE RÉPONDS JAMAIS DE MÉMOIRE. Toutes tes réponses doivent être basées sur la documentation officielle.
     """,

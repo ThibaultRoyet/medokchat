@@ -31,4 +31,5 @@ root_agent = Agent(
     """,
     tools=[fetch_medication_doc, read_section],
     before_model_callback=keep_last_invocation,
+
 )

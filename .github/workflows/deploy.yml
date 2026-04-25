@@ -1,0 +1,108 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "agents/**"
+  workflow_dispatch:
+
+env:
+  REGISTRY: ${{ vars.REGISTRY }}
+
+jobs:
+  build:
+    name: Build & Push image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Login Scaleway Registry
+        run: echo "${{ secrets.SCW_SECRET_KEY }}" | docker login $REGISTRY -u nologin --password-stdin
+
+      - name: Build & Push
+        run: |
+          docker build \
+            -t $REGISTRY/medokchat:${{ github.sha }} \
+            -t $REGISTRY/medokchat:latest \
+            agents/
+          docker push $REGISTRY/medokchat:${{ github.sha }}
+          docker push $REGISTRY/medokchat:latest
+
+  prune-registry:
+    name: Prune old registry tags
+    runs-on: ubuntu-latest
+    needs: build
+    env:
+      SCW_SECRET_KEY: ${{ secrets.SCW_SECRET_KEY }}
+    steps:
+      - name: Delete old tags (keep last 3)
+        run: |
+          set -e
+          SCW_REGION="fr-par"
+          SCW_API="https://api.scaleway.com/registry/v1/regions/${SCW_REGION}"
+          TAGS_TO_KEEP=3
+          NAMESPACE_NAME=$(echo "$REGISTRY" | cut -d'/' -f2)
+
+          NAMESPACE_ID=$(curl -sf -H "X-Auth-Token: ${SCW_SECRET_KEY}" \
+            "${SCW_API}/namespaces?name=${NAMESPACE_NAME}" | \
+            jq -r '.namespaces[0].id')
+
+          IMAGE_IDS=$(curl -sf -H "X-Auth-Token: ${SCW_SECRET_KEY}" \
+            "${SCW_API}/images?namespace_id=${NAMESPACE_ID}" | \
+            jq -r '.images[].id')
+
+          for IMAGE_ID in $IMAGE_IDS; do
+            TAGS_TO_DELETE=$(curl -sf -H "X-Auth-Token: ${SCW_SECRET_KEY}" \
+              "${SCW_API}/tags?image_id=${IMAGE_ID}&order_by=created_at_desc" | \
+              jq -r "[.tags[] | select(.name != \"latest\")] | .[$TAGS_TO_KEEP:] | .[].id")
+
+            for TAG_ID in $TAGS_TO_DELETE; do
+              curl -sf -X DELETE -H "X-Auth-Token: ${SCW_SECRET_KEY}" \
+                "${SCW_API}/tags/${TAG_ID}"
+            done
+          done
+
+  deploy:
+    name: Deploy to VPS
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ vars.VPS_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
+
+      - name: Write .env on server
+        run: |
+          cat > /tmp/app.env << 'EOF'
+          ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_MODEL_NAME=${{ vars.LLM_MODEL_NAME }}
+          GRADIO_SERVER_NAME=0.0.0.0
+          GRADIO_SERVER_PORT=7860
+          REGISTRY=${{ vars.REGISTRY }}
+          IMAGE_TAG=latest
+          DOMAIN=${{ vars.DOMAIN_NAME }}
+          EOF
+          scp /tmp/app.env ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/.env
+          ssh ubuntu@${{ vars.VPS_HOST }} "chmod 600 /opt/medokchat/.env"
+
+      - name: Sync compose & Caddy files
+        run: |
+          scp infra/preprod/docker/docker-compose.yml ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/docker-compose.yml
+          scp infra/preprod/docker/Caddyfile ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/Caddyfile
+
+      - name: Pull & restart
+        run: |
+          ssh ubuntu@${{ vars.VPS_HOST }} << ENDSSH
+            set -e
+            cd /opt/medokchat
+            echo "${{ secrets.SCW_SECRET_KEY }}" | docker login $REGISTRY -u nologin --password-stdin
+            docker compose pull
+            docker compose up -d --remove-orphans
+            docker image prune -f
+          ENDSSH

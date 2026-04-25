@@ -85,3 +85,11 @@ Desktop.ini
 # Build outputs
 *.tsbuildinfo
 next-env.d.ts
+
+# Terraform
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup

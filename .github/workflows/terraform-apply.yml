@@ -1,0 +1,112 @@
+name: Terraform Apply
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  apply:
+    name: Apply infra & deploy
+    runs-on: ubuntu-latest
+
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_KEY }}
+      TF_VAR_scw_access_key: ${{ secrets.SCW_ACCESS_KEY }}
+      TF_VAR_scw_secret_key: ${{ secrets.SCW_SECRET_KEY }}
+      TF_VAR_scw_project_id: ${{ vars.SCW_PROJECT_ID }}
+      TF_VAR_ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
+      TF_VAR_domain_name: ${{ vars.DOMAIN_NAME }}
+      TF_VAR_app_subdomain: ${{ vars.APP_SUBDOMAIN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "~1.6"
+          terraform_wrapper: false
+
+      - name: Terraform Init
+        working-directory: infra/preprod
+        run: terraform init
+
+      - name: Terraform Apply
+        working-directory: infra/preprod
+        run: terraform apply -auto-approve
+
+      - name: Get server IP
+        id: ip
+        working-directory: infra/preprod
+        run: echo "value=$(terraform output -raw server_ip)" >> $GITHUB_OUTPUT
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+      - name: Wait for server ready
+        run: |
+          IP="${{ steps.ip.outputs.value }}"
+          echo "Waiting for $IP..."
+          for i in $(seq 1 30); do
+            if ssh -o StrictHostKeyChecking=no -o ConnectTimeout=5 ubuntu@$IP "docker info > /dev/null 2>&1"; then
+              echo "Server ready after $((i * 15))s"
+              exit 0
+            fi
+            echo "Attempt $i/30 — retrying in 15s..."
+            sleep 15
+          done
+          echo "Timeout: server not ready"
+          exit 1
+
+      - name: Wait for DNS propagation
+        run: |
+          IP="${{ steps.ip.outputs.value }}"
+          HOST="${{ vars.VPS_HOST }}"
+          echo "Waiting for $HOST to resolve to $IP..."
+          for i in $(seq 1 20); do
+            RESOLVED=$(dig +short $HOST | head -1)
+            if [ "$RESOLVED" = "$IP" ]; then
+              echo "DNS propagated: $HOST -> $IP"
+              exit 0
+            fi
+            echo "Attempt $i/20: resolves to '$RESOLVED', expected '$IP' — waiting 15s..."
+            sleep 15
+          done
+          echo "Timeout: DNS not propagated"
+          exit 1
+
+      - name: Write .env on server
+        run: |
+          cat > /tmp/app.env << 'EOF'
+          ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_MODEL_NAME=${{ vars.LLM_MODEL_NAME }}
+          GRADIO_SERVER_NAME=0.0.0.0
+          GRADIO_SERVER_PORT=7860
+          REGISTRY=${{ vars.REGISTRY }}
+          IMAGE_TAG=latest
+          DOMAIN=${{ vars.DOMAIN_NAME }}
+          EOF
+          scp /tmp/app.env ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/.env
+          ssh ubuntu@${{ vars.VPS_HOST }} "chmod 600 /opt/medokchat/.env"
+
+      - name: Sync compose & Caddy files
+        run: |
+          scp infra/preprod/docker/docker-compose.yml ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/docker-compose.yml
+          scp infra/preprod/docker/Caddyfile ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/Caddyfile
+
+      - name: Pull & restart
+        run: |
+          ssh ubuntu@${{ vars.VPS_HOST }} << ENDSSH
+            set -e
+            cd /opt/medokchat
+            echo "${{ secrets.SCW_SECRET_KEY }}" | docker login ${{ vars.REGISTRY }} -u nologin --password-stdin
+            docker compose pull
+            docker compose up -d --remove-orphans
+            docker image prune -f
+          ENDSSH

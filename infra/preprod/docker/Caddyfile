@@ -1,0 +1,4 @@
+medokchat.{$DOMAIN} {
+    encode gzip
+    reverse_proxy medokchat:7860
+}

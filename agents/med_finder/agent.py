@@ -65,7 +65,15 @@ def _after_agent_callback(
 
     return types.Content(
         role="model",
-        parts=[types.Part(text="\n".join(lines))],
+        parts=[
+            types.Part(text="\n".join(lines)),
+            types.Part(
+                function_call=types.FunctionCall(
+                    name="transfer_to_agent",
+                    args={"agent_name": "orchestrator"},
+                )
+            ),
+        ],
     )
 
 
@@ -74,13 +82,10 @@ root_agent = Agent(
         model=f'anthropic/{os.getenv("LLM_MODEL_NAME")}',
         api_key=os.getenv("ANTHROPIC_API_KEY"),
     ),
-    mode="task",
     name="med_finder",
     description="Identifie un médicament dans la base officielle française (ANSM) et retourne son CIS",
     instruction="""
-    En tant qu'agent Task suis les instruction pour remplir ton objectif et l'agent supérieur s'occupera de continué le travail.
-    Ton unique objectif est donc d'identifier le médicament demandé dans la base ANSM et de retourner son CIS.
-    Tu ne donnes pas de conseils médicaux ni d'informations sur le médicament — tu trouves uniquement le document.
+    IL te sera donné un nom de document, trouve le l'id CIS du document et renvoi le. Ne cherche pas à comprendre la demande de l'utilisateur.
 
     Procédure :
     1. Appelle search_medicaments avec le nom du médicament.
@@ -92,7 +97,8 @@ root_agent = Agent(
     3. Termine OBLIGATOIREMENT ta réponse par (sans rien après) :
        CHOIX_CIS: <le CIS du médicament choisi>
 
-    Une fois le CHOIX_CIS émis, ton travail est terminé. Retourne immédiatement le contrôle à l'orchestrateur — ne pose pas de questions, n'ajoute aucun commentaire.
+    Pour rappel, renvoi le CIS trouvé et pas de blabla, si pas trouvé du dit juste non-trouvé
+    Une fois la tâche terminé, renvoi au parents orchestrator.
     """,
     tools=[search_medicaments],
     before_model_callback=keep_last_invocation,

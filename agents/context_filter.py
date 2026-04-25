@@ -4,7 +4,6 @@ Logique extraite de google.adk.plugins.context_filter_plugin.
 """
 from __future__ import annotations
 
-import re
 from collections.abc import Sequence
 from typing import Optional
 
@@ -81,9 +80,6 @@ def keep_last_invocation(
 # keep_orchestrator_context
 # ---------------------------------------------------------------------------
 
-_AGENT_TAG_RE = re.compile(r'^\[(\w+)\]')
-
-
 def _is_context_block(content: types.Content) -> bool:
     """Vrai si le contenu est un bloc 'For context:' injecté par ADK."""
     return bool(content.parts) and any(
@@ -93,31 +89,25 @@ def _is_context_block(content: types.Content) -> bool:
 
 
 def _filter_context_parts(parts: list[types.Part]) -> list[types.Part]:
-    """Garde le header 'For context:' et les parts qui référencent [orchestrator] ou aucun agent."""
-    kept = []
-    for part in parts:
-        if part.text is None:
-            kept.append(part)
-            continue
-        text = part.text.strip()
-        if text == "For context:":
-            kept.append(part)
-            continue
-        m = _AGENT_TAG_RE.match(text)
-        if m is None or m.group(1) == "orchestrator":
-            kept.append(part)
-    return kept
+    """Garde les réponses textuelles des sous-agents, supprime leurs tool calls.
+
+    Sont supprimés : function_call (dont transfer_to_agent) et function_response.
+    Sont gardés : toutes les parts textuelles (réponses finales des sous-agents).
+    """
+    return [
+        part for part in parts
+        if part.function_call is None and part.function_response is None
+    ]
 
 
 def keep_orchestrator_context(
     callback_context: CallbackContext,
     llm_request: LlmRequest,
 ) -> Optional[LlmResponse]:
-    """before_model_callback : filtre les blocs 'For context:' pour ne garder
-    que les events de l'orchestrator et les vrais messages utilisateur.
+    """before_model_callback : dans les blocs 'For context:', supprime les tool calls
+    des sous-agents (y compris transfer_to_agent) et garde uniquement leurs réponses textuelles.
 
-    Les parts qui référencent d'autres sous-agents (ex. [med_finder]) sont supprimées.
-    Un bloc 'For context:' qui n'a plus de contenu utile après filtrage est entièrement retiré.
+    Un bloc 'For context:' vide après filtrage est entièrement retiré.
     """
     contents = llm_request.contents
     if not contents:

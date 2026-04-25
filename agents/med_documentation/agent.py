@@ -2,6 +2,7 @@ import os
 from google.adk import Agent
 from google.adk.models import LiteLlm
 
+from context_filter import keep_last_invocation
 from .tools import fetch_medication_doc, read_section
 
 root_agent = Agent(
@@ -9,6 +10,7 @@ root_agent = Agent(
         model=f'anthropic/{os.getenv("LLM_MODEL_NAME")}',
         api_key=os.getenv("ANTHROPIC_API_KEY"),
     ),
+    mode="task",
     name="med_documentation",
     description="Lit et navigue dans la fiche officielle d'un médicament (RCP, notice, bon usage) à partir de son CIS",
     instruction="""
@@ -28,4 +30,5 @@ root_agent = Agent(
     Ne fabrique pas d'informations. Si une section ne contient pas la réponse, consultes-en une autre.
     """,
     tools=[fetch_medication_doc, read_section],
+    before_model_callback=keep_last_invocation,
 )

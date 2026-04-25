@@ -8,6 +8,7 @@ from google.adk.models import LiteLlm
 from google.adk.models.llm_response import LlmResponse
 from google.genai import types
 
+from context_filter import keep_last_invocation
 from .tools import search_medicaments
 
 
@@ -77,12 +78,13 @@ root_agent = Agent(
     name="med_finder",
     description="Identifie un médicament dans la base officielle française (ANSM) et retourne son CIS",
     instruction="""
-    Ton unique objectif est d'identifier le médicament demandé dans la base ANSM et de retourner son CIS.
+    En tant qu'agent Task suis les instruction pour remplir ton objectif et l'agent supérieur s'occupera de continué le travail.
+    Ton unique objectif est donc d'identifier le médicament demandé dans la base ANSM et de retourner son CIS.
     Tu ne donnes pas de conseils médicaux ni d'informations sur le médicament — tu trouves uniquement le document.
 
     Procédure :
     1. Appelle search_medicaments avec le nom du médicament.
-       Tu peux faire jusqu'à 5 recherches pour affiner (ex: "doliprane", puis "paracetamol", puis "doliprane 1000mg").
+       Tu peux faire jusqu'à 5 recherches pour trouver le medicament, tu peux commencer par des requête spécifique et ensuite rendre ta requête plus large (moins de mots ou plus générique).
     2. Choisis le résultat le plus pertinent :
        - Correspondance maximale avec la demande
        - Statut "Commercialisée" préférable
@@ -91,6 +93,7 @@ root_agent = Agent(
        CHOIX_CIS: <le CIS du médicament choisi>
     """,
     tools=[search_medicaments],
+    before_model_callback=keep_last_invocation,
     after_model_callback=_after_model_callback,
     after_agent_callback=_after_agent_callback,
 )

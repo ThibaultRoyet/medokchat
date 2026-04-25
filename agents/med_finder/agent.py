@@ -1,5 +1,5 @@
-import json
 import os
+import re
 from typing import Optional
 
 from google.adk import Agent
@@ -7,41 +7,32 @@ from google.adk.agents.callback_context import CallbackContext
 from google.adk.models import LiteLlm
 from google.adk.models.llm_response import LlmResponse
 from google.genai import types
-from pydantic import BaseModel
 
 from context_filter import keep_last_invocation
 from .tools import search_medicaments
-
-
-class MedFinderOutput(BaseModel):
-    cis: str
 
 
 def _after_model_callback(
     callback_context: CallbackContext,
     llm_response: LlmResponse,
 ) -> Optional[LlmResponse]:
-    """Extrait le CIS du JSON de sortie et l'enregistre en state."""
+    """Détecte le choix du LLM et enregistre le médicament complet en state."""
     if not llm_response.content or not llm_response.content.parts:
         return None
 
     full_text = "".join(
-        p.text
-        for p in llm_response.content.parts
-        if hasattr(p, "text") and p.text
+        part.text
+        for part in llm_response.content.parts
+        if hasattr(part, "text") and part.text
     )
     if not full_text:
         return None
 
-    try:
-        data = json.loads(full_text)
-        cis = str(data.get("cis", "")).strip()
-    except (json.JSONDecodeError, AttributeError):
+    match = re.search(r"CHOIX_CIS:\s*(\d+)", full_text)
+    if not match:
         return None
 
-    if not cis:
-        return None
-
+    cis = match.group(1)
     cache: dict = callback_context.state.get("_med_search_results", {})
     if cis in cache:
         callback_context.state["med_informations"] = cache[cis]
@@ -83,7 +74,7 @@ root_agent = Agent(
         model=f'anthropic/{os.getenv("LLM_MODEL_NAME")}',
         api_key=os.getenv("ANTHROPIC_API_KEY"),
     ),
-    mode="single_turn",
+    mode="task",
     name="med_finder",
     description="Identifie un médicament dans la base officielle française (ANSM) et retourne son CIS",
     instruction="""
@@ -98,11 +89,11 @@ root_agent = Agent(
        - Correspondance maximale avec la demande
        - Statut "Commercialisée" préférable
        - Forme pharmaceutique adaptée si précisée
-    3. Retourne uniquement le CIS du médicament choisi via le schéma de sortie.
+    3. Termine OBLIGATOIREMENT ta réponse par (sans rien après) :
+       CHOIX_CIS: <le CIS du médicament choisi>
 
-    IMPORTANT: Tu trouve le medicaments et tu le donne. Ne cherche pas à comprendre, ne parle pas. Et tu delegate au parent.
+    Une fois le CHOIX_CIS émis, ton travail est terminé. Retourne immédiatement le contrôle à l'orchestrateur — ne pose pas de questions, n'ajoute aucun commentaire.
     """,
-    output_schema=MedFinderOutput,
     tools=[search_medicaments],
     before_model_callback=keep_last_invocation,
     after_model_callback=_after_model_callback,

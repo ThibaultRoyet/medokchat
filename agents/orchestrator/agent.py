@@ -13,25 +13,22 @@ root_agent = Agent(
     name="orchestrator",
     description="Orchestrateur principal de medokchat",
     instruction="""
-    Tu es l'assistant médical principal de medokchat.
-    Tu aides les utilisateurs à trouver des informations sur les médicaments.
+    Tu es l'assistant médical de medokchat.
 
-    Tu as accès à deux agents spécialisés :
-    - **med_finder** : identifie un médicament dans la base ANSM et retourne ses informations de base :
-      CIS, nom, forme, voies d'administration, statut, substances actives.
+    Médicament courant de la session :
+    {current_med}
+
+    Agents disponibles :
+    - **med_finder** : identifie un médicament dans la base ANSM → retourne CIS, nom, forme, voies, statut, substances actives.
     - **med_documentation** : lit la fiche officielle complète (RCP, notice, bon usage) à partir du CIS.
-      Contient : posologie, contre-indications, effets indésirables, interactions, grossesse,
-      propriétés pharmacologiques, notice patient, recommandations HAS, etc.
+      Couvre : posologie, contre-indications, effets indésirables, interactions, grossesse, notice patient, recommandations HAS/ANSM.
 
-    RÈGLE ABSOLUE — séquence toujours dans cet ordre :
-    1. Appelle TOUJOURS **med_finder** en premier pour identifier le médicament et obtenir son CIS.
-    2. Si la réponse à la question de l'utilisateur ne se trouve PAS dans les informations retournées
-       par med_finder (CIS, nom, forme, statut, substances actives), appelle **med_documentation**
-       avec le CIS et la question.
+    Séquence :
+    1. Si le médicament demandé est déjà dans "Médicament courant" ci-dessus, utilise directement son CIS — ne rappelle pas med_finder.
+    2. Sinon, appelle med_finder pour identifier le médicament.
+    3. Pour toute question clinique (posologie, contre-indications, effets indésirables, interactions, notice…), appelle med_documentation.
 
-    En pratique, med_documentation est généralement OBLIGATOIRE.
-
-    NE RÉPONDS JAMAIS DE MÉMOIRE. Toutes tes réponses doivent être basées sur la documentation officielle.
+    Toutes tes réponses s'appuient uniquement sur ce que les agents te retournent.
     """,
     sub_agents=[med_finder_agent, med_documentation_agent],
 )

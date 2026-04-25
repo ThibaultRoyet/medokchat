@@ -5,33 +5,48 @@ API_BASE = "https://medicaments-api.giygas.dev/v1"
 
 
 def select_med(cis: str, tool_context: ToolContext) -> str:
-    """Sélectionne définitivement le médicament identifié et transfère le contrôle à l'orchestrateur.
+    """Definitively selects the identified medication and transfers control back to the orchestrator.
 
-    Appelle ce tool dès que tu as identifié le bon médicament.
-    Ne l'appelle qu'une seule fois, avec le CIS final.
+    Call this tool as soon as you have identified the right medication.
+    Call it only once, with the final CIS.
 
     Args:
-        cis: Le CIS du médicament sélectionné.
+        cis: The CIS of the selected medication.
 
     Returns:
-        Confirmation du CIS sélectionné.
+        Confirmation of the selected CIS.
     """
     cache: dict = tool_context.state.get("_med_search_results", {})
     med = cache.get(str(cis))
 
     if med:
-        substances = [
+        substances_actives = [
             f"{s['denominationSubstance']} {s.get('dosage', '')}".strip()
             for s in (med.get("composition") or [])
             if s.get("natureComposant") == "SA"
         ]
+        excipients = [
+            s["denominationSubstance"]
+            for s in (med.get("composition") or [])
+            if s.get("natureComposant") == "FT"
+        ]
+        presentations = [
+            f"{p.get('libellePresentation', '')} — {p.get('etatComercialisation', '')} (CIP: {p.get('cip13', 'N/A')})"
+            for p in (med.get("presentations") or [])
+        ]
+
         lines = [
-            f"CIS : {med.get('cis', 'N/A')}",
-            f"Nom : {med.get('elementPharmaceutique', 'N/A')}",
-            f"Forme : {med.get('formePharmaceutique', 'N/A')}",
-            f"Voies : {', '.join(med.get('voiesAdministration') or [])}",
-            f"Statut : {med.get('etatComercialisation', 'N/A')}",
-            f"Substances actives : {', '.join(substances) if substances else 'N/A'}",
+            f"CIS: {med.get('cis', 'N/A')}",
+            f"Name: {med.get('elementPharmaceutique', 'N/A')}",
+            f"Form: {med.get('formePharmaceutique', 'N/A')}",
+            f"Routes: {', '.join(med.get('voiesAdministration') or []) or 'N/A'}",
+            f"Status: {med.get('etatComercialisation', 'N/A')}",
+            f"Active substances: {', '.join(substances_actives) or 'N/A'}",
+            f"Excipients: {', '.join(excipients) or 'N/A'}",
+            f"Authorization type: {med.get('typeProcedureAMM', 'N/A')}",
+            f"Authorization date: {med.get('dateAMM', 'N/A')}",
+            f"Surveillance: {med.get('surveillanceRenforcee', 'N/A')}",
+            f"Presentations: {' | '.join(presentations) or 'N/A'}",
         ]
         text = "\n".join(lines)
         tool_context.state["med_informations"] = med
@@ -42,17 +57,17 @@ def select_med(cis: str, tool_context: ToolContext) -> str:
 
 
 async def search_medicaments(name: str, tool_context: ToolContext) -> list[dict] | str:
-    """Recherche des médicaments dans la base officielle française (ANSM).
+    """Search for medications in the official French database (ANSM).
 
     Args:
-        name: Nom du médicament à rechercher.
-              Utilise UNIQUEMENT le nom du médicament (nom commercial ou DCI).
-              N'inclus pas de dosage, forme pharmaceutique ou autre information — juste le nom.
-              Exemples corrects : "doliprane", "paracetamol", "amoxicilline"
-              Exemples incorrects : "doliprane 1000mg comprimé adulte"
+        name: Name of the medication to search for.
+              Use ONLY the medication name (brand name or INN).
+              Do not include dosage, pharmaceutical form or any other information — name only.
+              Correct examples: "doliprane", "paracetamol", "amoxicilline"
+              Incorrect examples: "doliprane 1000mg comprimé adulte"
 
     Returns:
-        Liste des médicaments trouvés avec leur CIS, ou un message d'erreur si la recherche échoue.
+        List of matching medications with their CIS, or an error message if the search fails.
     """
     query = name.strip().replace(" ", "+")
 
@@ -66,38 +81,27 @@ async def search_medicaments(name: str, tool_context: ToolContext) -> list[dict]
             results = response.json()
     except httpx.HTTPStatusError as e:
         return (
-            f"Erreur HTTP {e.response.status_code} lors de la recherche de '{name}'. "
-            f"Essaie avec un autre nom ou une orthographe différente."
+            f"HTTP error {e.response.status_code} while searching for '{name}'. "
+            f"Try a different name or spelling."
         )
     except httpx.TimeoutException:
         return (
-            f"La recherche de '{name}' a expiré. "
-            f"Réessaie avec un terme plus court ou différent."
+            f"Search for '{name}' timed out. "
+            f"Try a shorter or different term."
         )
     except Exception as e:
         return (
-            f"Erreur inattendue lors de la recherche de '{name}' : {e}. "
-            f"Essaie avec un terme différent."
+            f"Unexpected error while searching for '{name}': {e}. "
+            f"Try a different term."
         )
 
     if not results:
-        return f"Aucun médicament trouvé pour '{name}'. Essaie un autre nom ou une DCI."
+        return f"No medication found for '{name}'. Try another name or INN."
 
     all_results: dict[str, dict] = {str(med["cis"]): med for med in results}
     tool_context.state["_med_search_results"] = all_results
 
     return [
-        {
-            "cis": med["cis"],
-            "nom": med["elementPharmaceutique"],
-            "forme": med["formePharmaceutique"],
-            "voies": med.get("voiesAdministration", []),
-            "statut": med.get("etatComercialisation", ""),
-            "substances": [
-                f"{s['denominationSubstance']} {s['dosage']}"
-                for s in (med.get("composition") or [])
-                if s.get("natureComposant") == "SA"
-            ],
-        }
-        for med in all_results.values()
+        {"cis": med["cis"], "nom": med["elementPharmaceutique"]}
+        for med in list(all_results.values())[:30]
     ]

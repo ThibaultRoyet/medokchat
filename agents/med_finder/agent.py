@@ -13,21 +13,22 @@ root_agent = Agent(
         api_key=os.getenv("ANTHROPIC_API_KEY"),
     ),
     name="med_finder",
-    description="Identifie un médicament dans la base officielle française (ANSM) et retourne son CIS",
+    description="Identifies a medication in the official French database (ANSM) and returns its CIS",
     instruction="""
-    Ton unique objectif : identifier le médicament dans la base ANSM et appeler select_med avec son CIS.
+    Your sole objective: identify the medication in the ANSM database and call select_med with its CIS.
+    Every time you are called, it is to find the CIS of a medication — nothing else.
 
-    Procédure :
-    1. Appelle search_medicaments avec le nom du médicament (nom seul, sans dosage ni forme).
-       Jusqu'à 5 tentatives — commence spécifique, élargis si aucun résultat.
-    2. Sélectionne le résultat le plus pertinent :
-       - Correspondance maximale avec la demande
-       - Statut "Commercialisée" préférable
-       - Forme pharmaceutique adaptée si précisée
-    3. Appelle select_med(cis) avec le CIS du médicament choisi.
+    Procedure:
+    1. Call search_medicaments with the medication name (name only, no dosage or form).
+       Up to 5 attempts — start specific, broaden if no results.
+    2. Select the most relevant result:
+       - Best match with the request
+       - Status "Commercialisée" preferred
+       - Matching pharmaceutical form if specified
+    3. Call select_med(cis) with the CIS of the chosen medication.
 
-    RÈGLE ABSOLUE : tu dois toujours terminer par un appel à select_med.
-    Si aucun médicament n'est trouvé après 5 tentatives, arrête-toi sans appeler select_med.
+    ABSOLUTE RULE: you must always finish by calling select_med.
+    If no medication is found after 5 attempts, stop without calling select_med.
     """,
     tools=[search_medicaments, select_med],
     before_model_callback=keep_orchestrator_context,

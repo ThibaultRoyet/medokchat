@@ -23,6 +23,8 @@ dependencies = [
     # Utilities
     "python-dotenv>=1.0.0",
     "openai>=1.0.0",
+    # UI
+    "gradio>=5.0.0",
 ]
 
 [tool.uv]

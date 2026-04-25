@@ -208,14 +208,14 @@ def _parse_bon_usage(panel) -> dict[str, dict]:
 
 
 async def fetch_medication_doc(cis: str, tool_context: ToolContext) -> dict:
-    """Télécharge et parse la fiche médicament officielle (base-donnees-publique.medicaments.gouv.fr).
+    """Downloads and parses the official medication file (base-donnees-publique.medicaments.gouv.fr).
 
     Args:
-        cis: Code CIS (identifiant unique) du médicament.
+        cis: CIS code (unique identifier) of the medication.
 
     Returns:
-        Table des matières indexée par onglet (rcp, notice, fiche_info, bon_usage)
-        sans le contenu textuel — utiliser read_section pour lire une section.
+        Table of contents indexed by tab (rcp, notice, fiche-info, bon-usage)
+        without text content — use read_section to read a section.
     """
     url = f"{BASE_URL}/{cis}/extrait"
 
@@ -248,8 +248,8 @@ async def fetch_medication_doc(cis: str, tool_context: ToolContext) -> dict:
             for sid, sec in parsed.items()
         ]
 
-    # Store full content in state for read_section
     tool_context.state["med_doc"] = {"cis": cis, "tabs": tabs}
+    tool_context.state["current_med_documentation"] = response.text
 
     return toc
 
@@ -257,30 +257,30 @@ async def fetch_medication_doc(cis: str, tool_context: ToolContext) -> dict:
 async def read_section(
     tab: str, section_id: str, tool_context: ToolContext
 ) -> str:
-    """Lit le contenu textuel d'une section de la fiche médicament.
+    """Reads the text content of a section from the medication file.
 
     Args:
-        tab: Onglet cible : 'rcp', 'notice', 'fiche_info' ou 'bon_usage'.
-        section_id: Identifiant de la section (obtenu via fetch_medication_doc).
+        tab: Target tab: 'rcp', 'notice', 'fiche-info' or 'bon-usage'.
+        section_id: Section identifier (obtained via fetch_medication_doc).
 
     Returns:
-        Contenu formaté de la section, ou un message d'erreur.
+        Formatted section content, or an error message.
     """
     med_doc = tool_context.state.get("med_doc")
     if med_doc is None:
-        return "Erreur : appelez d'abord fetch_medication_doc pour télécharger la fiche."
+        return "Error: call fetch_medication_doc first to download the medication file."
 
     tabs: dict[str, dict] = med_doc["tabs"]
 
     if tab not in tabs:
-        return f"Onglet inconnu : '{tab}'. Onglets disponibles : {list(tabs.keys())}"
+        return f"Unknown tab: '{tab}'. Available tabs: {list(tabs.keys())}"
 
     sections = tabs[tab]
 
     if section_id not in sections:
         return (
-            f"Section '{section_id}' introuvable dans l'onglet '{tab}'. "
-            f"Sections disponibles : {list(sections.keys())}"
+            f"Section '{section_id}' not found in tab '{tab}'. "
+            f"Available sections: {list(sections.keys())}"
         )
 
     section = sections[section_id]

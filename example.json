@@ -1,0 +1,6182 @@
+[
+  {
+    "cis": 61293112,
+    "elementPharmaceutique": "COQUELUSEDAL PARACETAMOL 100 mg, suppositoire",
+    "formePharmaceutique": "suppositoire",
+    "voiesAdministration": [
+      "rectale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "04/12/2006",
+    "titulaire": "ELERTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61293112,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "100 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61293112,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 43182,
+        "denominationSubstance": "EXTRAIT MOU DE GRINDÉLIA",
+        "dosage": "10 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61293112,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 51781,
+        "denominationSubstance": "EXTRAIT MOU DE GELSÉMIUM",
+        "dosage": "5 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61293112,
+        "cip7": 3771034,
+        "libelle": "plaquette(s) PVC polyéthylène de 10 suppositoire(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "01/09/2009",
+        "cip13": 3400937710343,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63208057,
+    "elementPharmaceutique": "COQUELUSEDAL PARACETAMOL 250 mg, suppositoire",
+    "formePharmaceutique": "suppositoire",
+    "voiesAdministration": [
+      "rectale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "15/07/2009",
+    "titulaire": "ELERTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63208057,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "250 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 63208057,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 43182,
+        "denominationSubstance": "EXTRAIT MOU DE GRINDÉLIA",
+        "dosage": "20 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 63208057,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 51781,
+        "denominationSubstance": "EXTRAIT MOU DE GELSÉMIUM",
+        "dosage": "10 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 63208057,
+        "cip7": 3921172,
+        "libelle": "film(s) thermosoudé(s) PVC polyéthylène de 10 suppositoire(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "20/07/2009",
+        "cip13": 3400939211725,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64380679,
+    "elementPharmaceutique": "COQUELUSEDAL PARACETAMOL 500 mg, suppositoire",
+    "formePharmaceutique": "suppositoire",
+    "voiesAdministration": [
+      "rectale"
+    ],
+    "statusAutorisation": "Autorisation archivée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "12/12/1995",
+    "titulaire": "ELERTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64380679,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 152,
+        "denominationSubstance": "HUILE ESSENTIELLE DE NIAOULI",
+        "dosage": "40,0 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64380679,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500,0 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64380679,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 43182,
+        "denominationSubstance": "EXTRAIT MOU DE GRINDÉLIA",
+        "dosage": "40,0 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64380679,
+        "elementPharmaceutique": "suppositoire",
+        "codeSubstance": 51781,
+        "denominationSubstance": "EXTRAIT MOU DE GELSÉMIUM",
+        "dosage": "20,0 mg",
+        "referenceDosage": "un suppositoire",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64380679,
+        "cip7": 3953870,
+        "libelle": "plaquette(s) thermoformée(s) PVC polyéthylène de 10 suppositoire(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "30/06/2022",
+        "cip13": 3400939538709,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65089833,
+    "elementPharmaceutique": "DOLIRHUME PARACETAMOL ET PSEUDOEPHEDRINE 500 mg/30 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "24/07/1996",
+    "titulaire": "OPELLA HEALTHCARE FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65089833,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 65089833,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2278,
+        "denominationSubstance": "CHLORHYDRATE DE PSEUDOÉPHÉDRINE",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 65089833,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 90615,
+        "denominationSubstance": "PSEUDO-ÉPHÉDRINE",
+        "dosage": "24,57 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "FT"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65089833,
+        "cip7": 3412559,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "12/12/2024",
+        "cip13": 3400934125591,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "liste I"
+    ]
+  },
+  {
+    "cis": 60028495,
+    "elementPharmaceutique": "DOLIRHUMEPRO PARACETAMOL, PSEUDOEPHEDRINE ET DOXYLAMINE, comprimé",
+    "formePharmaceutique": "comprimé et  comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "15/12/2005",
+    "titulaire": "OPELLA HEALTHCARE FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60028495,
+        "elementPharmaceutique": "comprimé jour",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60028495,
+        "elementPharmaceutique": "comprimé jour",
+        "codeSubstance": 2278,
+        "denominationSubstance": "CHLORHYDRATE DE PSEUDOÉPHÉDRINE",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60028495,
+        "elementPharmaceutique": "comprimé nuit",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60028495,
+        "elementPharmaceutique": "comprimé nuit",
+        "codeSubstance": 3225,
+        "denominationSubstance": "HYDROGÉNOSUCCINATE DE DOXYLAMINE",
+        "dosage": "7,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 60028495,
+        "cip7": 3698604,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 comprimés",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "12/12/2025",
+        "cip13": 3400936986046,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "liste I"
+    ]
+  },
+  {
+    "cis": 61697350,
+    "elementPharmaceutique": "HUMEXLIB ETAT GRIPPAL PARACETAMOL/VITAMINE C/PHENIRAMINE 500 mg/200 mg/25 mg SANS SUCRE, poudre pour solution buvable en sachet édulcorée à l'aspartam",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "21/12/2015",
+    "titulaire": "LABORATOIRES URGO HEALTHCARE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61697350,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 1023,
+        "denominationSubstance": "ACIDE ASCORBIQUE",
+        "dosage": "0,200 g",
+        "referenceDosage": "un sachet de 5 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61697350,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "0,500 g",
+        "referenceDosage": "un sachet de 5 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61697350,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 3460,
+        "denominationSubstance": "MALÉATE DE PHÉNIRAMINE",
+        "dosage": "0,025 g",
+        "referenceDosage": "un sachet de 5 g",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 61697350,
+        "group": 1300,
+        "libelle": "PARACÉTAMOL  500 mg + ACIDE ASCORBIQUE 200 mg + PHÉNIRAMINE (MALÉATE DE) 25 mg - FERVEX ADULTES SANS SUCRE, granulé pour solution buvable en sachet",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 61697350,
+        "cip7": 3004061,
+        "libelle": "8 sachet(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "19/08/2021",
+        "cip13": 3400930040614,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 61541629,
+    "elementPharmaceutique": "HUMEXLIB ETAT GRIPPAL PARACETAMOL/VITAMINE C/PHENIRAMINE 500 mg/200 mg/25 mg, poudre pour solution buvable en sachet",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "27/02/2014",
+    "titulaire": "LABORATOIRES URGO HEALTHCARE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61541629,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 1023,
+        "denominationSubstance": "ACIDE ASCORBIQUE",
+        "dosage": "200 mg",
+        "referenceDosage": "un sachet de 13,1 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61541629,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un sachet de 13,1 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61541629,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 3460,
+        "denominationSubstance": "MALÉATE DE PHÉNIRAMINE",
+        "dosage": "25 mg",
+        "referenceDosage": "un sachet de 13,1 g",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 61541629,
+        "group": 1181,
+        "libelle": "PARACÉTAMOL  500 mg  +  ACIDE ASCORBIQUE  200 mg +  PHÉNIRAMINE (MALÉATE DE) 25 mg - FERVEX ADULTES, granulés pour solution buvable en sachet",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 61541629,
+        "cip7": 2782739,
+        "libelle": "8 sachet(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "31/03/2022",
+        "cip13": 3400927827396,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68144352,
+    "elementPharmaceutique": "HUMEXLIB PARACETAMOL CHLORPHENAMINE 500 mg/4 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "07/02/1991",
+    "titulaire": "LABORATOIRES URGO HEALTHCARE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68144352,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 68144352,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 3193,
+        "denominationSubstance": "MALÉATE DE CHLORPHÉNAMINE",
+        "dosage": "4 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 68144352,
+        "group": 1189,
+        "libelle": "PARACÉTAMOL  500 mg +  CHLORPHÉNAMINE (MALÉATE DE) 4 mg - HUMEXLIB PARACETAMOL CHLORPHENAMINE 500 mg/4 mg, gélule",
+        "type": "Princeps"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 68144352,
+        "cip7": 3335988,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "01/06/2008",
+        "cip13": 3400933359881,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67017786,
+    "elementPharmaceutique": "PARACETAMOL ACCORD 500 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "19/12/2018",
+    "titulaire": "ACCORD HEALTHCARE FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67017786,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67017786,
+        "cip7": 3016834,
+        "libelle": "16 film(s) thermosoudé(s) papier polyéthylène aluminium P-A-M-éthylène (SURLYN) unitaires prédécoupés de 1 comprimé",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "28/10/2020",
+        "cip13": 3400930168349,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67770378,
+    "elementPharmaceutique": "PARACETAMOL ACCORD 500 mg, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "05/04/2016",
+    "titulaire": "ACCORD HEALTHCARE FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67770378,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67770378,
+        "cip7": 3004532,
+        "libelle": "plaquette(s) thermoformée(s) PVC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "06/10/2017",
+        "cip13": 3400930045329,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66534880,
+    "elementPharmaceutique": "PARACETAMOL AGUETTANT 10 mg/mL, solution pour perfusion",
+    "formePharmaceutique": "solution pour perfusion",
+    "voiesAdministration": [
+      "intraveineuse"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure de reconnaissance mutuelle",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "18/03/2010",
+    "titulaire": "AGUETTANT",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66534880,
+        "elementPharmaceutique": "solution",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "10 mg",
+        "referenceDosage": "1 ml de solution pour perfusion",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66534880,
+        "cip7": 5510493,
+        "libelle": "50 poche(s) (COSINUS EMBASE) polyoléfine suremballée(s)/surpochée(s) de 50 ml avec site d'injection avec site de perfusion",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "02/01/2025",
+        "cip13": 3400955104933,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 66534880,
+        "cip7": 5510494,
+        "libelle": "50 poche(s) (COSINUS EMBASE) polyoléfine suremballée(s)/surpochée(s) de 100 ml avec site d'injection avec site de perfusion",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "02/01/2025",
+        "cip13": 3400955104940,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 66534880,
+        "cip7": 5768958,
+        "libelle": "50 poche(s) polyoléfine suremballée(s)/surpochée(s) de 100 ml avec site de perfusion",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "05/07/2010",
+        "cip13": 3400957689582,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 66534880,
+        "cip7": 5769024,
+        "libelle": "50 poche(s) (COSINUS) polyoléfine suremballée(s)/surpochée(s) de 50 ml avec site d'injection avec site de perfusion",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "05/07/2010",
+        "cip13": 3400957690243,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 66534880,
+        "cip7": 5769107,
+        "libelle": "50 poche(s) (COSINUS) polyoléfine suremballée(s)/surpochée(s) de 100 ml avec site d'injection avec site de perfusion",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "05/07/2010",
+        "cip13": 3400957691073,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 66534880,
+        "cip7": 5866885,
+        "libelle": "20 poche(s) polyoléfine suremballée(s)/surpochée(s) de 10 ml avec site de prélèvement ( abrogée le 05/12/2025)",
+        "statusAdministratif": "Présentation abrogée",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "31/05/2023",
+        "cip13": 3400958668852,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "réservé à l'usage HOSPITALIER",
+      "liste I"
+    ]
+  },
+  {
+    "cis": 61754805,
+    "elementPharmaceutique": "PARACETAMOL AHCL 1 g, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "20/10/2011",
+    "titulaire": "ACCORD HEALTHCARE FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61754805,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61754805,
+        "cip7": 4150908,
+        "libelle": "2 film(s) thermosoudé(s) papier polyéthylène aluminium P-A-M-éthylène (SURLYN) de 4 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "12/05/2014",
+        "cip13": 3400941509087,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 61158602,
+    "elementPharmaceutique": "PARACETAMOL ALMUS 1 g, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "03/11/2005",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61158602,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61158602,
+        "cip7": 3705238,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "23/10/2006",
+        "cip13": 3400937052382,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63734096,
+    "elementPharmaceutique": "PARACETAMOL ALMUS 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation archivée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "11/09/2001",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63734096,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 63734096,
+        "cip7": 3574256,
+        "libelle": "plaquette(s) thermoformée(s) PVC-aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "30/04/2022",
+        "cip13": 3400935742568,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.07
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69159193,
+    "elementPharmaceutique": "PARACETAMOL ALTER 1000 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "08/10/2007",
+    "titulaire": "LABORATOIRES ALTER",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69159193,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69159193,
+        "cip7": 3818037,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "25/10/2024",
+        "cip13": 3400938180374,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69767594,
+    "elementPharmaceutique": "PARACETAMOL ARROW 1 g, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "10/03/2004",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69767594,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69767594,
+        "cip7": 3638157,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "22/07/2004",
+        "cip13": 3400936381575,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66280930,
+    "elementPharmaceutique": "PARACETAMOL ARROW 1 g, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "24/11/2003",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66280930,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66280930,
+        "cip7": 3633668,
+        "libelle": "tube(s) polypropylène de 8  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "28/02/2022",
+        "cip13": 3400936336681,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68429807,
+    "elementPharmaceutique": "PARACETAMOL ARROW 10 mg/ml, solution pour perfusion",
+    "formePharmaceutique": "solution pour perfusion",
+    "voiesAdministration": [
+      "intraveineuse"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "15/11/2010",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68429807,
+        "elementPharmaceutique": "solution",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "10 mg",
+        "referenceDosage": "1 ml",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68429807,
+        "cip7": 5812205,
+        "libelle": "10 flacon(s) en verre de 100 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "02/09/2021",
+        "cip13": 3400958122057,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "réservé à l'usage HOSPITALIER",
+      "liste I"
+    ]
+  },
+  {
+    "cis": 64849984,
+    "elementPharmaceutique": "PARACETAMOL ARROW 1000 mg, poudre pour solution buvable en sachet-dose",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "23/10/2008",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64849984,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un sachet-dose",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64849984,
+        "cip7": 3886369,
+        "libelle": "8 sachet(s)-dose(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "28/07/2022",
+        "cip13": 3400938863697,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68234981,
+    "elementPharmaceutique": "PARACETAMOL ARROW 300 mg, poudre pour solution buvable en sachet-dose",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "23/10/2008",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68234981,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "300 mg",
+        "referenceDosage": "un sachet-dose",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68234981,
+        "cip7": 3886346,
+        "libelle": "12 sachet(s)-dose(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "26/07/2022",
+        "cip13": 3400938863468,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.23
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66123644,
+    "elementPharmaceutique": "PARACETAMOL ARROW 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "15/11/2001",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66123644,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66123644,
+        "cip7": 3581753,
+        "libelle": "plaquette(s) thermoformée(s) PVC-aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "05/05/2002",
+        "cip13": 3400935817532,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65085849,
+    "elementPharmaceutique": "PARACETAMOL ARROW 500 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "17/05/2010",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65085849,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65085849,
+        "cip7": 4911543,
+        "libelle": "tube(s) polypropylène de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "30/09/2021",
+        "cip13": 3400949115433,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68849298,
+    "elementPharmaceutique": "PARACETAMOL ARROW 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "14/05/2010",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68849298,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68849298,
+        "cip7": 3840982,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 12 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "30/06/2021",
+        "cip13": 3400938409826,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 68849298,
+        "cip7": 3841007,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "08/08/2025",
+        "cip13": 3400938410075,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 68849298,
+        "cip7": 3841295,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "01/09/2021",
+        "cip13": 3400938412956,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 68849298,
+        "cip7": 5871691,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 100 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "28/02/2022",
+        "cip13": 3400958716911,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64762433,
+    "elementPharmaceutique": "PARACETAMOL ARROW 500 mg, poudre pour solution buvable en sachet-dose",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "23/10/2008",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64762433,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un sachet-dose",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64762433,
+        "cip7": 3886352,
+        "libelle": "12 sachet(s)-dose(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "05/07/2022",
+        "cip13": 3400938863529,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67226661,
+    "elementPharmaceutique": "PARACETAMOL ARROW CONSEIL 1000 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/06/2019",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67226661,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67226661,
+        "cip7": 3018102,
+        "libelle": "plaquette(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "20/07/2020",
+        "cip13": 3400930181027,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68803920,
+    "elementPharmaceutique": "PARACETAMOL ARROW CONSEIL 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "14/05/2010",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68803920,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68803920,
+        "cip7": 3871043,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "29/10/2010",
+        "cip13": 3400938710434,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67763832,
+    "elementPharmaceutique": "PARACETAMOL ARROW LAB 1000 mg, poudre pour solution buvable",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "21/10/2019",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67763832,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un sachet",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67763832,
+        "cip7": 3019109,
+        "libelle": "8 sachet(s) papier polyéthylène aluminium",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "28/07/2022",
+        "cip13": 3400930191095,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66482622,
+    "elementPharmaceutique": "PARACETAMOL ARROW LAB 300 mg, poudre pour solution buvable",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "21/10/2019",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66482622,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "300 mg",
+        "referenceDosage": "un sachet",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66482622,
+        "cip7": 3019107,
+        "libelle": "12 sachet(s) papier polyéthylène aluminium",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "27/02/2023",
+        "cip13": 3400930191071,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.23
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 60705584,
+    "elementPharmaceutique": "PARACETAMOL ARROW LAB 500 mg poudre pour solution buvable",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "21/10/2019",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60705584,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un sachet",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 60705584,
+        "cip7": 3019108,
+        "libelle": "12 sachet(s) papier polyéthylène aluminium",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "28/07/2022",
+        "cip13": 3400930191088,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63807135,
+    "elementPharmaceutique": "PARACETAMOL ARROW LAB 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "11/10/2019",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63807135,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 63807135,
+        "cip7": 3019104,
+        "libelle": "plaquette(s) thermoformée(s) PVC aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "11/10/2024",
+        "cip13": 3400930191040,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.15
+      },
+      {
+        "cis": 63807135,
+        "cip7": 3019105,
+        "libelle": "1 flacon(s) polyéthylène haute densité (PEHD) de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "04/08/2021",
+        "cip13": 3400930191057,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.15
+      },
+      {
+        "cis": 63807135,
+        "cip7": 5506917,
+        "libelle": "1 flacon(s) polyéthylène haute densité (PEHD) de 100 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "17/03/2022",
+        "cip13": 3400955069171,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 61304982,
+    "elementPharmaceutique": "PARACETAMOL B. BRAUN 10 mg/ml, solution pour perfusion",
+    "formePharmaceutique": "solution pour perfusion",
+    "voiesAdministration": [
+      "intraveineuse"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "07/08/2012",
+    "titulaire": "B BRAUN MELSUNGEN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61304982,
+        "elementPharmaceutique": "solution",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "100 ml de solution",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61304982,
+        "cip7": 5500095,
+        "libelle": "20 ampoule(s) polyéthylène basse densité (PEBD) de 10 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "25/02/2016",
+        "cip13": 3400955000952,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 61304982,
+        "cip7": 5830752,
+        "libelle": "10 flacon(s) polyéthylène basse densité (PEBD) de 50 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "14/12/2012",
+        "cip13": 3400958307522,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 61304982,
+        "cip7": 5830812,
+        "libelle": "10 flacon(s) polyéthylène basse densité (PEBD) de 100 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "14/12/2012",
+        "cip13": 3400958308123,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "réservé à l'usage HOSPITALIER",
+      "liste I"
+    ]
+  },
+  {
+    "cis": 62142750,
+    "elementPharmaceutique": "PARACETAMOL BASI 10 mg/mL, solution pour perfusion",
+    "formePharmaceutique": "solution à diluer pour perfusion",
+    "voiesAdministration": [
+      "intraveineuse"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure de reconnaissance mutuelle",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/06/2025",
+    "titulaire": "BASI",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62142750,
+        "elementPharmaceutique": "solution",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "10 mg",
+        "referenceDosage": "1 mL de solution",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62142750,
+        "cip7": 5510916,
+        "libelle": "50 flacon(s) polypropylène de 100 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "16/03/2026",
+        "cip13": 3400955109167,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "réservé à l'usage HOSPITALIER",
+      "liste I"
+    ]
+  },
+  {
+    "cis": 68495013,
+    "elementPharmaceutique": "PARACETAMOL BENTA 500 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "23/04/2024",
+    "titulaire": "BENTA (FRANCE)",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68495013,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68495013,
+        "cip7": 3029417,
+        "libelle": "plaquette(s) PVC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "30/05/2024",
+        "cip13": 3400930294178,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68787715,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 1 g, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "10/03/2004",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68787715,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68787715,
+        "cip7": 3003622,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "01/07/2016",
+        "cip13": 3400930036228,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 68787715,
+        "cip7": 3638186,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "07/09/2004",
+        "cip13": 3400936381865,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67217826,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 1000 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "26/09/2002",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67217826,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67217826,
+        "cip7": 3599753,
+        "libelle": "tube(s) polypropylène de 8  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "13/03/2003",
+        "cip13": 3400935997531,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66142228,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 1000 mg, poudre pour solution buvable en sachet-dose",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation archivée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "22/12/2008",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66142228,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un sachet-dose",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66142228,
+        "cip7": 3906971,
+        "libelle": "8 sachet(s)-dose(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "05/08/2022",
+        "cip13": 3400939069715,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 61400596,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 300 mg, poudre pour solution buvable en sachet-dose",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation archivée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "11/12/2008",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61400596,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "300 mg",
+        "referenceDosage": "un sachet-dose",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61400596,
+        "cip7": 3884962,
+        "libelle": "12 sachet(s)-dose(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "14/07/2022",
+        "cip13": 3400938849622,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.23
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66661454,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/10/2007",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66661454,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66661454,
+        "cip7": 3004322,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "22/08/2016",
+        "cip13": 3400930043226,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 66661454,
+        "cip7": 3820057,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "17/01/2011",
+        "cip13": 3400938200577,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 60170046,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 500 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "24/02/2003",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60170046,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 60170046,
+        "cip7": 3613335,
+        "libelle": "1 pilulier(s) polypropylène de 16  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "01/09/2003",
+        "cip13": 3400936133358,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65701216,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/11/1986",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65701216,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65701216,
+        "cip7": 3008878,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 16 gélule(s) avec fermeture de sécurité enfant",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "14/09/2017",
+        "cip13": 3400930088784,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 65701216,
+        "cip7": 3292227,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "05/01/1998",
+        "cip13": 3400932922277,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69867452,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN 500 mg, poudre pour solution buvable en sachet-dose",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation archivée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "11/12/2008",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69867452,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un sachet-dose",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69867452,
+        "cip7": 3906959,
+        "libelle": "12 sachet(s)-dose(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "23/06/2022",
+        "cip13": 3400939069593,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 60557071,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN CONSEIL 1000 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "15/03/2023",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60557071,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 60557071,
+        "cip7": 3027052,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "07/11/2023",
+        "cip13": 3400930270523,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64182380,
+    "elementPharmaceutique": "PARACETAMOL BIOGARAN CONSEIL 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "15/03/2023",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64182380,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64182380,
+        "cip7": 3027051,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "07/11/2023",
+        "cip13": 3400930270516,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 62771825,
+    "elementPharmaceutique": "PARACETAMOL CODEINE ARROW 500 mg/30 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "24/11/2003",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62771825,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 62771825,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62771825,
+        "cip7": 3628940,
+        "libelle": "pilulier(s) polypropylène de 16  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "26/07/2022",
+        "cip13": 3400936289406,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.72
+      }
+    ],
+    "conditions": [
+      "liste I"
+    ]
+  },
+  {
+    "cis": 69355295,
+    "elementPharmaceutique": "PARACETAMOL CODEINE BIOGARAN 500 mg/30 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation archivée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "20/12/2002",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69355295,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 69355295,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "CODÉINE (PHOSPHATE DE) HÉMIHYDRATÉ",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69355295,
+        "cip7": 3610503,
+        "libelle": "1 pilulier(s) polypropylène de 16  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "31/08/2021",
+        "cip13": 3400936105034,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.72
+      }
+    ],
+    "conditions": [
+      "liste I"
+    ]
+  },
+  {
+    "cis": 62541023,
+    "elementPharmaceutique": "PARACETAMOL CODEINE EG 500 mg/30 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "24/11/2003",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62541023,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 62541023,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "CODÉINE (PHOSPHATE DE) HÉMIHYDRATÉ",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62541023,
+        "cip7": 3628928,
+        "libelle": "pilulier(s) polypropylène de 16  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "18/08/2021",
+        "cip13": 3400936289284,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.72
+      }
+    ],
+    "conditions": [
+      "liste I"
+    ]
+  },
+  {
+    "cis": 67806479,
+    "elementPharmaceutique": "PARACETAMOL CODEINE FRILAB 500 mg/30 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "07/11/2008",
+    "titulaire": "LABORATOIRES FRILAB",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67806479,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 67806479,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67806479,
+        "cip7": 3902364,
+        "libelle": "1 pilulier(s) polypropylène de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "03/02/2022",
+        "cip13": 3400939023649,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.72
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 64436633,
+    "elementPharmaceutique": "PARACETAMOL CRISTERS 1 g, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/10/2007",
+    "titulaire": "CRISTERS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64436633,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64436633,
+        "cip7": 3819806,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "29/01/2009",
+        "cip13": 3400938198065,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66266717,
+    "elementPharmaceutique": "PARACETAMOL CRISTERS 1000 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "18/04/2016",
+    "titulaire": "CRISTERS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66266717,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66266717,
+        "cip7": 3002166,
+        "libelle": "tube(s) polypropylène de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "30/10/2019",
+        "cip13": 3400930021668,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64503085,
+    "elementPharmaceutique": "PARACETAMOL CRISTERS 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/10/2007",
+    "titulaire": "CRISTERS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64503085,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64503085,
+        "cip7": 3819686,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "06/02/2009",
+        "cip13": 3400938196863,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69411153,
+    "elementPharmaceutique": "PARACETAMOL CRISTERS 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "03/01/2012",
+    "titulaire": "CRISTERS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69411153,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69411153,
+        "cip7": 2194215,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "24/08/2023",
+        "cip13": 3400921942156,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65418129,
+    "elementPharmaceutique": "PARACETAMOL CRISTERS PHARMA 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/11/1997",
+    "titulaire": "CRISTERS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65418129,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500,00 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65418129,
+        "cip7": 3852531,
+        "libelle": "plaquette(s) PVC aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "30/12/2009",
+        "cip13": 3400938525311,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 62772966,
+    "elementPharmaceutique": "PARACETAMOL EG 1 g, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "10/03/2004",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62772966,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62772966,
+        "cip7": 3638192,
+        "libelle": "plaquette(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "26/08/2004",
+        "cip13": 3400936381926,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67755020,
+    "elementPharmaceutique": "PARACETAMOL EG 1000 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "13/09/2004",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67755020,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67755020,
+        "cip7": 3655718,
+        "libelle": "tube(s) polypropylène de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "16/03/2005",
+        "cip13": 3400936557185,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 62013136,
+    "elementPharmaceutique": "PARACETAMOL EG 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "06/05/1998",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62013136,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62013136,
+        "cip7": 3473058,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "03/12/2012",
+        "cip13": 3400934730580,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69546215,
+    "elementPharmaceutique": "PARACETAMOL EG 500 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "15/11/2001",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69546215,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69546215,
+        "cip7": 3584817,
+        "libelle": "1 tube(s) polypropylène de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "04/11/2004",
+        "cip13": 3400935848178,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65335982,
+    "elementPharmaceutique": "PARACETAMOL EG 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "18/08/1994",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65335982,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65335982,
+        "cip7": 3376668,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "07/12/2004",
+        "cip13": 3400933766689,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66665285,
+    "elementPharmaceutique": "PARACETAMOL EG LABO CONSEIL 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "24/01/2019",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66665285,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66665285,
+        "cip7": 3017008,
+        "libelle": "plaquette(s) PVC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "13/09/2019",
+        "cip13": 3400930170083,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68830091,
+    "elementPharmaceutique": "PARACETAMOL EVOLUGEN 1 g, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "25/10/2007",
+    "titulaire": "EVOLUPHARM",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68830091,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68830091,
+        "cip7": 3819723,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "01/05/2024",
+        "cip13": 3400938197235,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67742980,
+    "elementPharmaceutique": "PARACETAMOL EVOLUGEN 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "03/04/2015",
+    "titulaire": "EVOLUPHARM",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67742980,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67742980,
+        "cip7": 2802488,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "01/10/2023",
+        "cip13": 3400928024886,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64841496,
+    "elementPharmaceutique": "PARACETAMOL EVOLUGEN PHARMA 1000 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "13/03/2024",
+    "titulaire": "EVOLUPHARM",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64841496,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64841496,
+        "cip7": 3029198,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "18/11/2024",
+        "cip13": 3400930291986,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66043600,
+    "elementPharmaceutique": "PARACETAMOL EVOLUGEN PHARMA 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "13/03/2024",
+    "titulaire": "EVOLUPHARM",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66043600,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66043600,
+        "cip7": 3029196,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "18/11/2024",
+        "cip13": 3400930291962,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64454154,
+    "elementPharmaceutique": "PARACETAMOL KABI 10 mg/mL, solution pour perfusion",
+    "formePharmaceutique": "solution pour perfusion",
+    "voiesAdministration": [
+      "intraveineuse"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "28/06/2011",
+    "titulaire": "FRESENIUS KABI FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64454154,
+        "elementPharmaceutique": "solution",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "10 mg",
+        "referenceDosage": "1 ml",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64454154,
+        "cip7": 5800745,
+        "libelle": "10 flacon(s) en verre de 50 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/12/2012",
+        "cip13": 3400958007453,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 64454154,
+        "cip7": 5800780,
+        "libelle": "10 flacon(s) en verre de 100 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/12/2012",
+        "cip13": 3400958007804,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 64454154,
+        "cip7": 5824929,
+        "libelle": "20 poche(s) FREEFLEX (polypropylène/SIS : styrène-isoprène-styrène - polypropylène/ styrène éthylène butadiène) suremballée(s) de 100 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "02/05/2012",
+        "cip13": 3400958249297,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "réservé à l'usage HOSPITALIER",
+      "liste I"
+    ]
+  },
+  {
+    "cis": 67218807,
+    "elementPharmaceutique": "PARACETAMOL KRKA 1000 mg, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "24/10/2018",
+    "titulaire": "KRKA (SLOVENIE)",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67218807,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67218807,
+        "cip7": 3017422,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "19/12/2019",
+        "cip13": 3400930174227,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67975696,
+    "elementPharmaceutique": "PARACETAMOL KRKA 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "24/10/2018",
+    "titulaire": "KRKA (SLOVENIE)",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67975696,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67975696,
+        "cip7": 3016030,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "19/12/2019",
+        "cip13": 3400930160305,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63069892,
+    "elementPharmaceutique": "PARACETAMOL PANPHARMA 10 mg/ml, solution pour perfusion",
+    "formePharmaceutique": "solution pour perfusion",
+    "voiesAdministration": [
+      "intraveineuse"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure de reconnaissance mutuelle",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "19/12/2007",
+    "titulaire": "PANMEDICA",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63069892,
+        "elementPharmaceutique": "solution",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "10 mg",
+        "referenceDosage": "1 ml de solution pour perfusion",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 63069892,
+        "cip7": 5718601,
+        "libelle": "10 poche(s) PVC de 50 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "14/12/2024",
+        "cip13": 3400957186012,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 63069892,
+        "cip7": 5729970,
+        "libelle": "50 poche(s) PVC de 100 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "14/12/2024",
+        "cip13": 3400957299705,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 63069892,
+        "cip7": 5856409,
+        "libelle": "10 flacon(s) en verre de 10 ml",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "01/04/2014",
+        "cip13": 3400958564093,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "réservé à l'usage HOSPITALIER"
+    ]
+  },
+  {
+    "cis": 66125677,
+    "elementPharmaceutique": "PARACETAMOL SANDOZ 1 g, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "21/01/2013",
+    "titulaire": "SANDOZ",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66125677,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66125677,
+        "cip7": 2688644,
+        "libelle": "tube(s) polypropylène de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "27/12/2022",
+        "cip13": 3400926886448,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69252719,
+    "elementPharmaceutique": "PARACETAMOL SANDOZ 1 g, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/07/2005",
+    "titulaire": "SANDOZ",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69252719,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69252719,
+        "cip7": 3694612,
+        "libelle": "plaquette(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "18/01/2006",
+        "cip13": 3400936946125,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 62688710,
+    "elementPharmaceutique": "PARACETAMOL SANDOZ 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "05/01/1996",
+    "titulaire": "SANDOZ",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62688710,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62688710,
+        "cip7": 3656847,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "28/04/2006",
+        "cip13": 3400936568471,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65765012,
+    "elementPharmaceutique": "PARACETAMOL SANDOZ 500 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "21/01/2013",
+    "titulaire": "SANDOZ",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65765012,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65765012,
+        "cip7": 2688615,
+        "libelle": "tube(s) polypropylène de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "29/10/2021",
+        "cip13": 3400926886158,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67034675,
+    "elementPharmaceutique": "PARACETAMOL SANDOZ 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "02/03/2004",
+    "titulaire": "SANDOZ",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67034675,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67034675,
+        "cip7": 3631830,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "05/08/2004",
+        "cip13": 3400936318304,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64207990,
+    "elementPharmaceutique": "PARACETAMOL SANDOZ CONSEIL 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "22/09/1998",
+    "titulaire": "SANDOZ",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64207990,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64207990,
+        "cip7": 3771117,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "25/06/2021",
+        "cip13": 3400937711173,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63187008,
+    "elementPharmaceutique": "PARACETAMOL SUN 1 g, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "12/11/2007",
+    "titulaire": "SUN PHARMA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63187008,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 63187008,
+        "cip7": 3826723,
+        "libelle": "plaquette(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "22/02/2022",
+        "cip13": 3400938267235,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65621649,
+    "elementPharmaceutique": "PARACETAMOL TEVA 1 g, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "10/03/2004",
+    "titulaire": "TEVA SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65621649,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65621649,
+        "cip7": 3638163,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "31/07/2004",
+        "cip13": 3400936381636,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68249079,
+    "elementPharmaceutique": "PARACETAMOL TEVA 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "01/04/1998",
+    "titulaire": "TEVA SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68249079,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68249079,
+        "cip7": 3611508,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "25/04/2003",
+        "cip13": 3400936115088,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 60091086,
+    "elementPharmaceutique": "PARACETAMOL TEVA 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "03/01/2012",
+    "titulaire": "TEVA SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60091086,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 60091086,
+        "cip7": 2194178,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "02/04/2013",
+        "cip13": 3400921941784,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66937792,
+    "elementPharmaceutique": "PARACETAMOL TEVA CONSEIL 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "07/09/2000",
+    "titulaire": "TEVA SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66937792,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66937792,
+        "cip7": 3792094,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "21/11/2025",
+        "cip13": 3400937920940,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69085184,
+    "elementPharmaceutique": "PARACETAMOL TEVA SANTE 1000 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "21/01/2013",
+    "titulaire": "TEVA SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69085184,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69085184,
+        "cip7": 2688532,
+        "libelle": "tube(s) polypropylène de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "29/05/2022",
+        "cip13": 3400926885328,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64290776,
+    "elementPharmaceutique": "PARACETAMOL TEVA SANTE 500 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "21/01/2013",
+    "titulaire": "TEVA SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64290776,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64290776,
+        "cip7": 2688503,
+        "libelle": "tube(s) polypropylène de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "29/10/2021",
+        "cip13": 3400926885038,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66007981,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS 1000 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "18/04/2016",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66007981,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66007981,
+        "cip7": 3002161,
+        "libelle": "tube(s) polypropylène de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "08/01/2018",
+        "cip13": 3400930021613,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67165233,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS 1000 mg, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/10/2007",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67165233,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67165233,
+        "cip7": 3004066,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "27/06/2016",
+        "cip13": 3400930040669,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 67165233,
+        "cip7": 3819829,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "14/03/2008",
+        "cip13": 3400938198294,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 67165233,
+        "cip7": 5501475,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 80 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "25/04/2016",
+        "cip13": 3400955014751,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63107752,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "27/10/1992",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63107752,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500,00 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 63107752,
+        "cip7": 3002078,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "27/06/2016",
+        "cip13": 3400930020784,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 63107752,
+        "cip7": 3351639,
+        "libelle": "plaquette(s) thermoformée(s) PVC-aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "18/12/1998",
+        "cip13": 3400933516390,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 63107752,
+        "cip7": 5500774,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 100 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "29/02/2016",
+        "cip13": 3400955007746,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67888330,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS 500 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "18/04/2016",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67888330,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67888330,
+        "cip7": 3002158,
+        "libelle": "tube(s) polypropylène de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/01/2018",
+        "cip13": 3400930021583,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 61858273,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "27/10/1992",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61858273,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500,00 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61858273,
+        "cip7": 3000799,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "21/01/2016",
+        "cip13": 3400930007990,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 61858273,
+        "cip7": 3627550,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 16  gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "30/03/2004",
+        "cip13": 3400936275508,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      },
+      {
+        "cis": 61858273,
+        "cip7": 5500314,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 100 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "19/01/2016",
+        "cip13": 3400955003144,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68155441,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS CONSEIL 1000 mg, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "23/08/2019",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68155441,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68155441,
+        "cip7": 3018843,
+        "libelle": "plaquette(s) PVC aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "19/11/2020",
+        "cip13": 3400930188439,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65089573,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS CONSEIL 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "23/08/2019",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65089573,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65089573,
+        "cip7": 3018838,
+        "libelle": "plaquette(s) PVC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "08/03/2021",
+        "cip13": 3400930188385,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68630258,
+    "elementPharmaceutique": "PARACETAMOL VIATRIS SANTE 1000 mg, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/09/2023",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68630258,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68630258,
+        "cip7": 3027922,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "03/02/2026",
+        "cip13": 3400930279229,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64691502,
+    "elementPharmaceutique": "PARACETAMOL VJ-PHARM 500 mg, granulés orodispersibles",
+    "formePharmaceutique": "granulés orodispersible",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "02/05/2016",
+    "titulaire": "VEGGIEPHARM",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64691502,
+        "elementPharmaceutique": "granulés",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un sachet",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64691502,
+        "cip7": 3001260,
+        "libelle": "12 sachet(s) polyester aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "11/12/2020",
+        "cip13": 3400930012604,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 62909621,
+    "elementPharmaceutique": "PARACETAMOL ZENTIVA 1000 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "06/08/2003",
+    "titulaire": "ZENTIVA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62909621,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62909621,
+        "cip7": 3624675,
+        "libelle": "plaquette(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "28/02/2023",
+        "cip13": 3400936246751,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 64606306,
+    "elementPharmaceutique": "PARACETAMOL ZENTIVA 1000 mg, comprimé effervescent sécable",
+    "formePharmaceutique": "comprimé effervescent(e) sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "16/12/1999",
+    "titulaire": "ZENTIVA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64606306,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1000 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64606306,
+        "cip7": 3529439,
+        "libelle": "tube(s) polypropylène de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "30/08/2024",
+        "cip13": 3400935294395,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 66400810,
+    "elementPharmaceutique": "PARACETAMOL ZENTIVA 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "28/03/2003",
+    "titulaire": "ZENTIVA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66400810,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66400810,
+        "cip7": 3617385,
+        "libelle": "plaquette(s) PVC-Aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "19/06/2023",
+        "cip13": 3400936173859,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 67445776,
+    "elementPharmaceutique": "PARACETAMOL ZENTIVA 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "28/01/2011",
+    "titulaire": "ZENTIVA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67445776,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 67445776,
+        "cip7": 4151150,
+        "libelle": "plaquette(s) thermoformée(s) PVC PVDC aluminium de 16 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "27/07/2023",
+        "cip13": 3400941511509,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 68957758,
+    "elementPharmaceutique": "PARACETAMOL ZENTIVA K.S. 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "05/08/1996",
+    "titulaire": "ZENTIVA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68957758,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 68957758,
+        "cip7": 3673751,
+        "libelle": "plaquette(s) aluminium PVC de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "31/08/2023",
+        "cip13": 3400936737518,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 60950142,
+    "elementPharmaceutique": "PARACETAMOL ZENTIVA LAB 1 g, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "24/02/2022",
+    "titulaire": "ZENTIVA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60950142,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 60950142,
+        "cip7": 3024860,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "25/10/2022",
+        "cip13": 3400930248607,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 61411557,
+    "elementPharmaceutique": "PARACETAMOL ZENTIVA LAB 500 mg, comprimé sécable",
+    "formePharmaceutique": "comprimé sécable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "24/02/2022",
+    "titulaire": "ZENTIVA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61411557,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61411557,
+        "cip7": 3024859,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "05/06/2023",
+        "cip13": 3400930248591,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65881579,
+    "elementPharmaceutique": "PARACETAMOL ZYDUS 1 g, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "13/02/2006",
+    "titulaire": "ZYDUS FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65881579,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "1 g",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65881579,
+        "cip7": 3740677,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 8 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "08/08/2006",
+        "cip13": 3400937406772,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 65827097,
+    "elementPharmaceutique": "PARACETAMOL ZYDUS 500 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "28/12/2000",
+    "titulaire": "ZYDUS FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 65827097,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 65827097,
+        "cip7": 3558978,
+        "libelle": "plaquette(s) thermoformée(s) PVC-aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/06/2004",
+        "cip13": 3400935589781,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63889506,
+    "elementPharmaceutique": "PARACETAMOL ZYDUS FRANCE 500 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "26/03/2024",
+    "titulaire": "ZYDUS FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63889506,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500,00 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 63889506,
+        "cip7": 3029241,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/01/2025",
+        "cip13": 3400930292419,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.15
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 63399979,
+    "elementPharmaceutique": "PARACETAMOL/CAFEINE/CODEINE ARROW 400 mg/50 mg/20 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "06/01/2017",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63399979,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 420,
+        "denominationSubstance": "CAFÉINE ANHYDRE",
+        "dosage": "50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 63399979,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "400 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 63399979,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "20 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 63399979,
+        "group": 1368,
+        "libelle": "PARACETAMOL 400 mg + CAFEINE 50 mg + CODEINE (PHOSPHATE DE) HEMIHYDRATE 20 mg - PRONTALGINE, comprimé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 63399979,
+        "cip7": 3007687,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 18 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "18/03/2022",
+        "cip13": 3400930076873,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 64635076,
+    "elementPharmaceutique": "PARACETAMOL/CAFEINE/CODEINE BIOGARAN 400 mg/50 mg/20 mg, gélule",
+    "formePharmaceutique": "gélule",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "02/09/2019",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64635076,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 420,
+        "denominationSubstance": "CAFÉINE ANHYDRE",
+        "dosage": "50 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64635076,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "400,0 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64635076,
+        "elementPharmaceutique": "gélule",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "20,0 mg",
+        "referenceDosage": "une gélule",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64635076,
+        "cip7": 3018848,
+        "libelle": "plaquette(s) PVC aluminium de 18 gélule(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "10/05/2022",
+        "cip13": 3400930188484,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 64409077,
+    "elementPharmaceutique": "PARACETAMOL/CAFEINE/CODEINE VIATRIS 400 mg/50 mg/20 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "06/01/2017",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64409077,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 420,
+        "denominationSubstance": "CAFÉINE ANHYDRE",
+        "dosage": "50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64409077,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "400 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64409077,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "20 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 64409077,
+        "group": 1368,
+        "libelle": "PARACETAMOL 400 mg + CAFEINE 50 mg + CODEINE (PHOSPHATE DE) HEMIHYDRATE 20 mg - PRONTALGINE, comprimé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 64409077,
+        "cip7": 3007516,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 18 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "18/06/2018",
+        "cip13": 3400930075166,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 69458587,
+    "elementPharmaceutique": "PARACETAMOL/CODEINE BIOGARAN 500 mg/30 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "04/10/2022",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69458587,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500,00 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 69458587,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "30,00 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 69458587,
+        "group": 1643,
+        "libelle": "PARACETAMOL 500 mg + CODEINE (PHOSPHATE DE) HEMIHYDRATE 30 mg - DAFALGAN CODEINE, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 69458587,
+        "cip7": 3026233,
+        "libelle": "plaquette(s) PVC aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "28/02/2023",
+        "cip13": 3400930262337,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.44
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 62110311,
+    "elementPharmaceutique": "PARACETAMOL/CODEINE PIERRE FABRE 300 mg/25 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "05/08/1982",
+    "titulaire": "PIERRE FABRE MEDICAMENT",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 62110311,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "300,00 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 62110311,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "CODÉINE (PHOSPHATE DE) HÉMIHYDRATÉ",
+        "dosage": "25,00 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 62110311,
+        "cip7": 3574865,
+        "libelle": "plaquette(s) thermoformée(s) PVC-aluminium de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "31/10/2022",
+        "cip13": 3400935748652,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.62
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 69722236,
+    "elementPharmaceutique": "PARACETAMOL/CODEINE PIERRE FABRE 600 mg/50 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "26/07/1990",
+    "titulaire": "PIERRE FABRE MEDICAMENT",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69722236,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "600 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 69722236,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "CODÉINE (PHOSPHATE DE) HÉMIHYDRATÉ",
+        "dosage": "50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69722236,
+        "cip7": 3574871,
+        "libelle": "plaquette(s) thermoformée(s) PVC-Aluminium de 12  comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "31/10/2022",
+        "cip13": 3400935748713,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.72
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 60009573,
+    "elementPharmaceutique": "PARACETAMOL/CODEINE TEVA 500 mg/30 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "05/12/2018",
+    "titulaire": "TEVA (PAYS-BAS)",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60009573,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60009573,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 60009573,
+        "cip7": 3016729,
+        "libelle": "plaquettes PVC-Aluminium de 16 comprimés",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "04/10/2024",
+        "cip13": 3400930167298,
+        "agreement": "non",
+        "tauxRemboursement": "65 %",
+        "prix": 1.72
+      },
+      {
+        "cis": 60009573,
+        "cip7": 3016730,
+        "libelle": "plaquette(s) PVC-Aluminium polytéréphtalate (PET) papier avec fermeture de sécurité enfant de 16 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "28/06/2021",
+        "cip13": 3400930167304,
+        "agreement": "non",
+        "tauxRemboursement": "65 %",
+        "prix": 1.72
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 66384797,
+    "elementPharmaceutique": "PARACETAMOL/CODEINE VIATRIS 500 mg/30 mg, comprimé",
+    "formePharmaceutique": "comprimé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "25/04/2019",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66384797,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 66384797,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 74765,
+        "denominationSubstance": "PHOSPHATE DE CODÉINE HÉMIHYDRATÉ",
+        "dosage": "30 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 66384797,
+        "group": 1643,
+        "libelle": "PARACETAMOL 500 mg + CODEINE (PHOSPHATE DE) HEMIHYDRATE 30 mg - DAFALGAN CODEINE, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 66384797,
+        "cip7": 3017756,
+        "libelle": "plaquettes PVC-Aluminium de 16 comprimés",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "03/06/2020",
+        "cip13": 3400930177563,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.44
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 61621858,
+    "elementPharmaceutique": "PARACETAMOL/VITAMINE C/PHENIRAMINE MYLAN CONSEIL 500 mg/200 mg/25 mg, poudre pour solution buvable en sachet",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "05/02/2014",
+    "titulaire": "MYLAN SAS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61621858,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 1023,
+        "denominationSubstance": "VITAMINE C",
+        "dosage": "200 mg",
+        "referenceDosage": "un sachet de 13,1 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61621858,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "500 mg",
+        "referenceDosage": "un sachet de 13,1 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61621858,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 3460,
+        "denominationSubstance": "MALÉATE DE PHÉNIRAMINE",
+        "dosage": "25 mg",
+        "referenceDosage": "un sachet de 13,1 g",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 61621858,
+        "cip7": 2773249,
+        "libelle": "8 sachet(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "05/10/2022",
+        "cip13": 3400927732492,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 60759678,
+    "elementPharmaceutique": "PARACETAMOL/VITAMINE C/PHENIRAMINE VIATRIS CONSEIL SANS SUCRE 500 mg/200 mg/25 mg, poudre pour solution buvable en sachet édulcorée à l aspartam",
+    "formePharmaceutique": "poudre pour solution buvable",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "21/12/2015",
+    "titulaire": "VIATRIS SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60759678,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 1023,
+        "denominationSubstance": "ACIDE ASCORBIQUE",
+        "dosage": "0,200 g",
+        "referenceDosage": "un sachet de 5 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60759678,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "0,500 g",
+        "referenceDosage": "un sachet de 5 g",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60759678,
+        "elementPharmaceutique": "poudre",
+        "codeSubstance": 3460,
+        "denominationSubstance": "MALÉATE DE PHÉNIRAMINE",
+        "dosage": "0,025 g",
+        "referenceDosage": "un sachet de 5 g",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 60759678,
+        "group": 1300,
+        "libelle": "PARACÉTAMOL  500 mg + ACIDE ASCORBIQUE 200 mg + PHÉNIRAMINE (MALÉATE DE) 25 mg - FERVEX ADULTES SANS SUCRE, granulé pour solution buvable en sachet",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 60759678,
+        "cip7": 3004065,
+        "libelle": "8 sachet(s) papier aluminium polyéthylène",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "25/04/2018",
+        "cip13": 3400930040652,
+        "agreement": "non",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": null
+  },
+  {
+    "cis": 69995434,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL ARROW 37,5 mg/325 mg, comprimé effervescent",
+    "formePharmaceutique": "comprimé effervescent(e)",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "18/10/2013",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69995434,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 69995434,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 69995434,
+        "group": 1073,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé effervescent - ZALDIAR 37,5 mg/325 mg, comprimé effervescent",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 69995434,
+        "cip7": 3014002,
+        "libelle": "tube(s) polypropylène de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "01/06/2018",
+        "cip13": 3400930140024,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.62
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 64656227,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL ARROW GENERIQUES 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "27/03/2013",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64656227,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64656227,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 64656227,
+        "cip7": 2696112,
+        "libelle": "plaquette(s) PVC-Aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "09/06/2023",
+        "cip13": 3400926961121,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 64707814,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL ARROW LAB 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "12/03/2013",
+    "titulaire": "ARROW GENERIQUES",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 64707814,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 64707814,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 64707814,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 64707814,
+        "cip7": 2698080,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "13/04/2016",
+        "cip13": 3400926980801,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      },
+      {
+        "cis": 64707814,
+        "cip7": 5846167,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 60 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "15/05/2025",
+        "cip13": 3400958461675,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 60396465,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL BGR 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "04/04/2013",
+    "titulaire": "BIOGARAN",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60396465,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60396465,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 60396465,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 60396465,
+        "cip7": 2732150,
+        "libelle": "plaquette(s) PVC-Aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "04/07/2018",
+        "cip13": 3400927321504,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      },
+      {
+        "cis": 60396465,
+        "cip7": 3014686,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) de 20 comprimé(s) avec fermeture de sécurité enfant",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "16/10/2018",
+        "cip13": 3400930146866,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 68823442,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL CRISTERS 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "01/03/2013",
+    "titulaire": "CRISTERS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68823442,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 68823442,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 68823442,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 68823442,
+        "cip7": 2696342,
+        "libelle": "plaquette(s) PVC-Aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "28/05/2013",
+        "cip13": 3400926963422,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 61354049,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL EG LABO 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "01/03/2013",
+    "titulaire": "EG LABO - LABORATOIRES EUROGENERICS",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 61354049,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 61354049,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 61354049,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 61354049,
+        "cip7": 2694248,
+        "libelle": "plaquette(s) PVC-Aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "10/06/2014",
+        "cip13": 3400926942489,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 60712956,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL EVOLUGEN PHARMA 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "27/11/2013",
+    "titulaire": "EVOLUPHARM",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60712956,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60712956,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 60712956,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 60712956,
+        "cip7": 2767102,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "12/11/2018",
+        "cip13": 3400927671029,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 60152411,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL KRKA 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "26/04/2013",
+    "titulaire": "KRKA (SLOVENIE)",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 60152411,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 60152411,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 35415,
+        "denominationSubstance": "TRAMADOL",
+        "dosage": "32,94 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "FT"
+      },
+      {
+        "cis": 60152411,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 60152411,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 60152411,
+        "cip7": 2672146,
+        "libelle": "2 plaquette(s) PVC PVDC aluminium de 10 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/06/2013",
+        "cip13": 3400926721466,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 69925400,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL SANDOZ 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "20/04/2012",
+    "titulaire": "LABORATOIRES GRUNENTHAL",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69925400,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 69925400,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 69925400,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 69925400,
+        "cip7": 2209626,
+        "libelle": "20 plaquette(s) PVC papier polytéréphtalate (PET) aluminium de 1 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "16/06/2025",
+        "cip13": 3400922096261,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      },
+      {
+        "cis": 69925400,
+        "cip7": 3029759,
+        "libelle": "plaquette(s) PVC papier polytéréphtalate (PET) aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "11/06/2025",
+        "cip13": 3400930297599,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 66355660,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL SUBSTIPHARM 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "04/04/2013",
+    "titulaire": "SUBSTIPHARM",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 66355660,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 66355660,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 66355660,
+        "cip7": 2731914,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "31/08/2021",
+        "cip13": 3400927319143,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I"
+    ]
+  },
+  {
+    "cis": 69621899,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL SUN 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation abrogée",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Non commercialisée",
+    "dateAMM": "15/02/2013",
+    "titulaire": "SUN PHARMA FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 69621899,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 69621899,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": null,
+    "presentation": [
+      {
+        "cis": 69621899,
+        "cip7": 2694314,
+        "libelle": "plaquette(s) PVC-Aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "30/08/2022",
+        "cip13": 3400926943141,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I"
+    ]
+  },
+  {
+    "cis": 68322100,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL TEVA 37.5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "15/02/2013",
+    "titulaire": "TEVA SANTE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 68322100,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 68322100,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 68322100,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 68322100,
+        "cip7": 2683807,
+        "libelle": "plaquette(s) PVC-Aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "29/03/2013",
+        "cip13": 3400926838072,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 67698690,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL VIATRIS 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "20/04/2012",
+    "titulaire": "LABORATOIRES GRUNENTHAL",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67698690,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 67698690,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 67698690,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 67698690,
+        "cip7": 2209595,
+        "libelle": "20 plaquette(s) PVC papier polytéréphtalate (PET) aluminium de 1 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "22/09/2025",
+        "cip13": 3400922095950,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      },
+      {
+        "cis": 67698690,
+        "cip7": 3011469,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) avec fermeture de sécurité de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/09/2018",
+        "cip13": 3400930114698,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      },
+      {
+        "cis": 67698690,
+        "cip7": 3029758,
+        "libelle": "plaquette(s) PVC papier polytéréphtalate (PET) aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "19/09/2025",
+        "cip13": 3400930297582,
+        "agreement": "oui",
+        "tauxRemboursement": "65 %",
+        "prix": 1.69
+      },
+      {
+        "cis": 67698690,
+        "cip7": 5504201,
+        "libelle": "flacon(s) polyéthylène haute densité (PEHD) avec fermeture de sécurité de 60 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "24/09/2018",
+        "cip13": 3400955042013,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      },
+      {
+        "cis": 67698690,
+        "cip7": 5819957,
+        "libelle": "60 plaquette(s) PVC papier polytéréphtalate (PET) aluminium de 1 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "12/08/2016",
+        "cip13": 3400958199578,
+        "agreement": "oui",
+        "tauxRemboursement": "",
+        "prix": 0
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 63561242,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL ZENTIVA 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure décentralisée",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "20/04/2012",
+    "titulaire": "LABORATOIRES GRUNENTHAL",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 63561242,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 63561242,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,5 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 63561242,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 63561242,
+        "cip7": 2209632,
+        "libelle": "20 plaquette(s) PVC papier polytéréphtalate (PET) aluminium de 1 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration d'arrêt de commercialisation",
+        "dateDeclaration": "18/04/2025",
+        "cip13": 3400922096322,
+        "agreement": "non",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      },
+      {
+        "cis": 63561242,
+        "cip7": 3029757,
+        "libelle": "plaquette(s) PVC papier polytéréphtalate (PET) aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "25/02/2025",
+        "cip13": 3400930297575,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+  {
+    "cis": 67594656,
+    "elementPharmaceutique": "TRAMADOL/PARACETAMOL ZYDUS 37,5 mg/325 mg, comprimé pelliculé",
+    "formePharmaceutique": "comprimé pelliculé",
+    "voiesAdministration": [
+      "orale"
+    ],
+    "statusAutorisation": "Autorisation active",
+    "typeProcedure": "Procédure nationale",
+    "etatComercialisation": "Commercialisée",
+    "dateAMM": "22/07/2013",
+    "titulaire": "ZYDUS FRANCE",
+    "surveillanceRenforcee": "Non",
+    "composition": [
+      {
+        "cis": 67594656,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 2202,
+        "denominationSubstance": "PARACÉTAMOL",
+        "dosage": "325 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      },
+      {
+        "cis": 67594656,
+        "elementPharmaceutique": "comprimé",
+        "codeSubstance": 86571,
+        "denominationSubstance": "CHLORHYDRATE DE TRAMADOL",
+        "dosage": "37,50 mg",
+        "referenceDosage": "un comprimé",
+        "natureComposant": "SA"
+      }
+    ],
+    "generiques": [
+      {
+        "cis": 67594656,
+        "group": 1072,
+        "libelle": "TRAMADOL (CHLORHYDRATE DE) 37,5 mg  +  PARACÉTAMOL 325 mg - IXPRIM 37,5 mg/325 mg, comprimé pelliculé - ZALDIAR 37,5 mg/325 mg, comprimé pelliculé",
+        "type": "Générique"
+      }
+    ],
+    "presentation": [
+      {
+        "cis": 67594656,
+        "cip7": 2751354,
+        "libelle": "plaquette(s) PVC PVDC aluminium de 20 comprimé(s)",
+        "statusAdministratif": "Présentation active",
+        "etatComercialisation": "Déclaration de commercialisation",
+        "dateDeclaration": "13/01/2015",
+        "cip13": 3400927513541,
+        "agreement": "oui",
+        "tauxRemboursement": "65%",
+        "prix": 1.69
+      }
+    ],
+    "conditions": [
+      "prescription limitée à 12 semaines",
+      "liste I",
+      "prescription en toutes lettres sur ordonnance sécurisée"
+    ]
+  },
+]

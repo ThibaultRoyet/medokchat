@@ -2,37 +2,38 @@ import os
 from google.adk import Agent
 from google.adk.models import LiteLlm
 
-from context_filter import keep_last_invocation
+from context_filter import keep_orchestrator_context
 from .tools import fetch_medication_doc, read_section
 
 root_agent = Agent(
     model=LiteLlm(
         model=f'anthropic/{os.getenv("LLM_MODEL_NAME")}',
         api_key=os.getenv("ANTHROPIC_API_KEY"),
+        stream=True,
     ),
     name="med_documentation",
-    description="Lit et navigue dans la fiche officielle d'un médicament (RCP, notice, bon usage) à partir de son CIS",
+    description="Reads and navigates the official medication file (RCP, notice, bon usage) from its CIS",
     instruction="""
-    Tu reçois une question sur un médicament.
+    You receive a question about a medication.
 
-    Médicament courant de la session :
+    Current medication for this session:
     {current_med}
 
-    Le CIS du médicament se trouve dans "Médicament courant" ci-dessus (ligne "CIS : ...").
+    The medication CIS is in "Current medication" above (line "CIS : ...").
 
-    Procède toujours ainsi :
-    1. Appelle fetch_medication_doc(cis) avec le CIS ci-dessus pour obtenir la table des matières.
-    2. Identifie les sections pertinentes pour répondre à la question.
-    3. Appelle read_section(tab, section_id) pour chaque section utile :
-       - posologie, contre-indications, effets indésirables, interactions → onglet "rcp"
-       - informations patient → onglet "notice"
-       - indications, composition → onglet "fiche-info"
-       - recommandations HAS/ANSM → onglet "bon-usage"
-    4. Synthétise une réponse basée uniquement sur le contenu officiel récupéré.
+    Always proceed as follows:
+    1. Call fetch_medication_doc(cis) with the CIS above to download the file and get the table of contents.
+    2. Identify the relevant sections to answer the question.
+    3. Call read_section(tab, section_id) for each useful section:
+       - dosage, contraindications, side effects, interactions → tab "rcp"
+       - patient information → tab "notice"
+       - indications, composition → tab "fiche-info"
+       - HAS/ANSM recommendations → tab "bon-usage"
+    4. Synthesize a clear answer based solely on the official content retrieved.
 
-    Si une section ne contient pas la réponse, explore d'autres sections avant de conclure.
+    If a section does not contain the answer, explore other sections before concluding.
     """,
     tools=[fetch_medication_doc, read_section],
-    before_model_callback=keep_last_invocation,
+    before_model_callback=keep_orchestrator_context,
 
 )

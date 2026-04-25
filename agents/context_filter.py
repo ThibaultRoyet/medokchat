@@ -4,6 +4,7 @@ Logique extraite de google.adk.plugins.context_filter_plugin.
 """
 from __future__ import annotations
 
+import re
 from collections.abc import Sequence
 from typing import Optional
 
@@ -88,16 +89,41 @@ def _is_context_block(content: types.Content) -> bool:
     )
 
 
-def _filter_context_parts(parts: list[types.Part]) -> list[types.Part]:
-    """Garde les réponses textuelles des sous-agents, supprime leurs tool calls.
+_AGENT_TAG_RE = re.compile(r'^\[(\w+)\]')
+_TOOL_RESULT_RE = re.compile(r'`\w+`\s+tool\s+returned\s+result')
 
-    Sont supprimés : function_call (dont transfer_to_agent) et function_response.
-    Sont gardés : toutes les parts textuelles (réponses finales des sous-agents).
+
+def _filter_context_parts(parts: list[types.Part]) -> list[types.Part]:
+    """Règles de filtrage dans les blocs 'For context:' :
+
+    Supprimé :
+    - function_call et function_response (tool calls internes + transfer_to_agent)
+    - textes taggés sous-agent qui sont des tool results
+
+    Gardé :
+    - header 'For context:'
+    - messages utilisateur (pas de tag)
+    - textes [orchestrator]
+    - réponses purement textuelles des sous-agents
     """
-    return [
-        part for part in parts
-        if part.function_call is None and part.function_response is None
-    ]
+    kept = []
+    for part in parts:
+        if part.function_call is not None or part.function_response is not None:
+            continue
+        if part.text is None:
+            kept.append(part)
+            continue
+        text = part.text.strip()
+        if text == "For context:":
+            kept.append(part)
+            continue
+        m = _AGENT_TAG_RE.match(text)
+        if m is not None and m.group(1) != "orchestrator":
+            # Texte d'un sous-agent : garder seulement si ce n'est pas un tool result
+            if _TOOL_RESULT_RE.search(text):
+                continue
+        kept.append(part)
+    return kept
 
 
 def keep_orchestrator_context(

@@ -1,4 +1,5 @@
 import re
+from pathlib import Path
 
 import httpx
 from google.adk.tools.tool_context import ToolContext
@@ -215,6 +216,8 @@ async def fetch_medication_doc(cis: str, tool_context: ToolContext) -> dict:
     async with httpx.AsyncClient(timeout=15.0) as client:
         response = await client.get(url)
         response.raise_for_status()
+
+    Path("med_doc.html").write_text(response.text, encoding="utf-8")
 
     doc = lxml_html.document_fromstring(response.text)
 

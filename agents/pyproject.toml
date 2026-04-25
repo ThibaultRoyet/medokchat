@@ -11,7 +11,7 @@ dependencies = [
     "a2a>=0.1.0",
     "a2a-sdk[http-server]",
     # Google ADK — used by Orchestrator and Analysis agents
-    "google-adk>=2.0.0.dev",
+    "google-adk==1.31.1",
     "litellm>=1.0.0",
     # LangGraph — used by Research agent
     "langgraph>=0.2.0",

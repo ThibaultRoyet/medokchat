@@ -944,7 +944,7 @@ wheels = [
 
 [[package]]
 name = "google-adk"
-version = "2.0.0b1"
+version = "1.31.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiosqlite" },
@@ -979,7 +979,6 @@ dependencies = [
     { name = "opentelemetry-exporter-otlp-proto-http" },
     { name = "opentelemetry-resourcedetector-gcp" },
     { name = "opentelemetry-sdk" },
-    { name = "packaging" },
     { name = "pyarrow" },
     { name = "pydantic", version = "2.12.5", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
     { name = "pydantic", version = "2.13.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
@@ -998,9 +997,9 @@ dependencies = [
     { name = "watchdog" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ae/36/e046bc123c3b08e74ca02164c942665f0ff9d035581898dd1161fd4ccbe4/google_adk-2.0.0b1.tar.gz", hash = "sha256:e96c668250b6be9beacfae405f3d155003e5e7a465f713aa8811679b33536e98", size = 2485854, upload-time = "2026-04-21T19:46:42.343Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9b/f7/e2371e8a871202f47f8911992da7daf8623dd61e714e0af5c6fec019ba67/google_adk-1.31.1.tar.gz", hash = "sha256:e56416264f62e931709da6262bc9fe05140faeb7a889a2fe8f5684617e8a05c3", size = 2408228, upload-time = "2026-04-21T02:06:48.623Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cf/b1/70027cea43c342c80f0d5d3990335ee94e9c29c7904f0d1ec6186d4f8e4b/google_adk-2.0.0b1-py3-none-any.whl", hash = "sha256:db915422c88b1e5eb78a62797447a66d4b00fa033c0d6dad53c56364ee86b5c4", size = 2958947, upload-time = "2026-04-21T19:46:44.391Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/02/6e7b88b122708569004ac024ec7f6773cc9d10ce1b086a4a6668a95ca142/google_adk-1.31.1-py3-none-any.whl", hash = "sha256:8f5d9c67c9a87832c2fe581bd4b1248dddf8964c98351a38e2663f0999bc7209", size = 2850553, upload-time = "2026-04-21T02:06:45.992Z" },
 ]
 
 [[package]]
@@ -2591,7 +2590,7 @@ requires-dist = [
     { name = "a2a-sdk", extras = ["http-server"] },
     { name = "ag-ui-adk", specifier = ">=0.0.1" },
     { name = "fastapi", specifier = ">=0.115.0" },
-    { name = "google-adk", specifier = ">=2.0.0.dev0" },
+    { name = "google-adk", specifier = "==1.31.1" },
     { name = "langchain", specifier = ">=0.3.0" },
     { name = "langchain-openai", specifier = ">=0.2.0" },
     { name = "langgraph", specifier = ">=0.2.0" },

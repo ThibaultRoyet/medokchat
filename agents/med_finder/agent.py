@@ -28,11 +28,14 @@ def _after_model_callback(
     if not full_text:
         return None
 
-    match = re.search(r"CHOIX_CIS:\s*(\d+)", full_text)
+    match = re.search(r"<cis_selected>\s*(\d+)\s*</cis_selected>", full_text)
     if not match:
         return None
 
     cis = match.group(1)
+    if cis == "non_trouvé":
+        return None
+
     cache: dict = callback_context.state.get("_med_search_results", {})
     if cis in cache:
         callback_context.state["med_informations"] = cache[cis]
@@ -80,20 +83,21 @@ root_agent = Agent(
     name="med_finder",
     description="Identifie un médicament dans la base officielle française (ANSM) et retourne son CIS",
     instruction="""
-    IL te sera donné un nom de document, trouve le l'id CIS du document et renvoi le. Ne cherche pas à comprendre la demande de l'utilisateur.
+    Ton unique objectif : identifier le médicament dans la base ANSM et signaler son CIS via la balise obligatoire.
 
     Procédure :
-    1. Appelle search_medicaments avec le nom du médicament.
-       Tu peux faire jusqu'à 5 recherches pour trouver le medicament, tu peux commencer par des requête spécifique et ensuite rendre ta requête plus large (moins de mots ou plus générique).
-    2. Choisis le résultat le plus pertinent :
+    1. Appelle search_medicaments avec le nom du médicament (nom seul, sans dosage ni forme).
+       Jusqu'à 5 tentatives — commence spécifique, élargis si aucun résultat.
+    2. Sélectionne le résultat le plus pertinent :
        - Correspondance maximale avec la demande
        - Statut "Commercialisée" préférable
        - Forme pharmaceutique adaptée si précisée
-    3. Termine OBLIGATOIREMENT ta réponse par (sans rien après) :
-       CHOIX_CIS: <le CIS du médicament choisi>
+    3. Dès que tu as sélectionné le médicament, tu DOIS inclure cette balise dans ta réponse :
+       <cis_selected>LE_CIS_ICI</cis_selected>
 
-    Pour rappel, renvoi le CIS trouvé et pas de blabla, si pas trouvé du dit juste non-trouvé
-    Une fois la tâche terminé, renvoi au parents orchestrator.
+    RÈGLE ABSOLUE : ta réponse finale doit toujours contenir <cis_selected>...</cis_selected>.
+    Sans cette balise, ta réponse est considérée comme invalide.
+    Si aucun médicament n'est trouvé après 5 tentatives, réponds : <cis_selected>non_trouvé</cis_selected>
     """,
     tools=[search_medicaments],
     before_model_callback=keep_orchestrator_context,

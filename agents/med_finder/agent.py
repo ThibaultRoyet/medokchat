@@ -91,6 +91,8 @@ root_agent = Agent(
        - Forme pharmaceutique adaptée si précisée
     3. Termine OBLIGATOIREMENT ta réponse par (sans rien après) :
        CHOIX_CIS: <le CIS du médicament choisi>
+
+    Une fois le CHOIX_CIS émis, ton travail est terminé. Retourne immédiatement le contrôle à l'orchestrateur — ne pose pas de questions, n'ajoute aucun commentaire.
     """,
     tools=[search_medicaments],
     before_model_callback=keep_last_invocation,

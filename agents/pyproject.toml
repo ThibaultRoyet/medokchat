@@ -1,0 +1,38 @@
+[project]
+name = "medokchat-agents"
+version = "0.1.0"
+description = "Multi-agent backend for medokchat — Google ADK + LangGraph via A2A and AG-UI protocols"
+requires-python = ">=3.10"
+
+dependencies = [
+    # AG-UI Protocol — lets ADK agents talk to the CopilotKit frontend
+    "ag-ui-adk>=0.0.1",
+    # A2A Protocol — agent-to-agent communication
+    "a2a>=0.1.0",
+    "a2a-sdk[http-server]",
+    # Google ADK — used by Orchestrator and Analysis agents
+    "google-adk>=2.0.0.dev",
+    "litellm>=1.0.0",
+    # LangGraph — used by Research agent
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    # Web server
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    # Utilities
+    "python-dotenv>=1.0.0",
+    "openai>=1.0.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "respx>=0.21.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+prerelease = "if-necessary-or-explicit"

@@ -47,6 +47,8 @@ def _parse_fiche_info(panel) -> dict[str, dict]:
 
         end = next_h5_index if next_h5_index is not None else len(children)
         for child in children[h5_index + 1 : end]:
+            if not isinstance(child.tag, str):
+                continue
             text = _clean(child)
             if text:
                 content_parts.append(text)
@@ -87,6 +89,8 @@ def _parse_rcp(panel) -> dict[str, dict]:
             }
 
     for child in contenu_div:
+        if not isinstance(child.tag, str):  # skip HtmlComment and PIs
+            continue
         is_h1 = "AmmAnnexeTitre1" in (child.get("class") or "")
         is_h2 = "AmmAnnexeTitre2" in (child.get("class") or "")
         if is_h1 or is_h2:
@@ -164,6 +168,8 @@ def _parse_notice(panel) -> dict[str, dict]:
             continue
 
         for child in children[heading_idx + 1 :]:
+            if not isinstance(child.tag, str):
+                continue
             # Stop if we find a span whose id is in sidebar_ids
             found_stop = False
             for descendant_span in child.iter("span"):
@@ -216,8 +222,6 @@ async def fetch_medication_doc(cis: str, tool_context: ToolContext) -> dict:
     async with httpx.AsyncClient(timeout=15.0) as client:
         response = await client.get(url)
         response.raise_for_status()
-
-    Path("med_doc.html").write_text(response.text, encoding="utf-8")
 
     doc = lxml_html.document_fromstring(response.text)
 

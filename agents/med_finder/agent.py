@@ -8,7 +8,7 @@ from google.adk.models import LiteLlm
 from google.adk.models.llm_response import LlmResponse
 from google.genai import types
 
-from context_filter import keep_last_invocation
+from context_filter import keep_orchestrator_context
 from .tools import search_medicaments
 
 
@@ -63,17 +63,12 @@ def _after_agent_callback(
         f"Substances actives : {', '.join(substances) if substances else 'N/A'}",
     ]
 
+    text = "\n".join(lines)
+    callback_context.state["current_med"] = text
+
     return types.Content(
         role="model",
-        parts=[
-            types.Part(text="\n".join(lines)),
-            types.Part(
-                function_call=types.FunctionCall(
-                    name="transfer_to_agent",
-                    args={"agent_name": "orchestrator"},
-                )
-            ),
-        ],
+        parts=[types.Part(text=text)],
     )
 
 
@@ -101,7 +96,7 @@ root_agent = Agent(
     Une fois la tâche terminé, renvoi au parents orchestrator.
     """,
     tools=[search_medicaments],
-    before_model_callback=keep_last_invocation,
+    before_model_callback=keep_orchestrator_context,
     after_model_callback=_after_model_callback,
     after_agent_callback=_after_agent_callback,
 )

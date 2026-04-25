@@ -24,8 +24,6 @@ def _parse_fiche_info(panel) -> dict[str, dict]:
     """
     sections: dict[str, dict] = {}
     h5_elements = panel.xpath(".//h5[@id]")
-    parent_children = list(panel.iter())  # fallback; we use sibling walking below
-
     for idx, h5 in enumerate(h5_elements):
         section_id = h5.get("id")
         titre = _clean(h5)
@@ -74,8 +72,6 @@ def _parse_rcp(panel) -> dict[str, dict]:
     if contenu_div is None:
         return sections
 
-    HEADING_CLASSES = {"AmmAnnexeTitre1", "AmmAnnexeTitre2"}
-
     current_id: str | None = None
     current_titre: str = ""
     current_niveau: int = 1
@@ -90,12 +86,11 @@ def _parse_rcp(panel) -> dict[str, dict]:
             }
 
     for child in contenu_div:
-        child_classes = set((child.get("class") or "").split())
-        heading_class = child_classes & HEADING_CLASSES
-        if heading_class:
+        is_h1 = "AmmAnnexeTitre1" in (child.get("class") or "")
+        is_h2 = "AmmAnnexeTitre2" in (child.get("class") or "")
+        if is_h1 or is_h2:
             _save_current()
-            cls = next(iter(heading_class))
-            niveau = 1 if cls == "AmmAnnexeTitre1" else 2
+            niveau = 1 if is_h1 else 2
             span = child.find('.//span[@id]')
             if span is not None:
                 current_id = span.get("id")
@@ -224,10 +219,10 @@ async def fetch_medication_doc(cis: str, tool_context: ToolContext) -> dict:
     doc = lxml_html.document_fromstring(response.text)
 
     tab_parsers = {
-        "fiche_info": ("tabpanel-fiche-info-panel", _parse_fiche_info),
+        "fiche-info": ("tabpanel-fiche-info-panel", _parse_fiche_info),
         "rcp": ("tabpanel-rcp-panel", _parse_rcp),
         "notice": ("tabpanel-notice-panel", _parse_notice),
-        "bon_usage": ("tabpanel-bon-usage-panel", _parse_bon_usage),
+        "bon-usage": ("tabpanel-bon-usage-panel", _parse_bon_usage),
     }
 
     tabs: dict[str, dict] = {}

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**medokchat** is a multi-agent medical chat backend built on **Google ADK**, exposing an **AG-UI** endpoint for frontend clients.
+**medokchat** est une plateforme multi-agent de chat médical construite sur **Google ADK**, avec une interface **Gradio**.
 
 ## Commands
 
@@ -12,8 +12,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # First-time setup
 cd agents && uv sync
 
-# Launch the orchestrator (http://localhost:9000)
-cd agents && uv run python main.py
+# Lancer l'interface Gradio (http://localhost:7860)
+cd agents && uv run python ui.py
 
 # Tests
 cd agents && uv run pytest
@@ -22,23 +22,21 @@ cd agents && uv run pytest
 ### Environment
 
 ```bash
-cp .env.example agents/.env   # Then fill in ANTHROPIC_API_KEY and LLM_MODEL_NAME
+cp .env.example agents/.env   # Remplir ANTHROPIC_API_KEY et LLM_MODEL_NAME
 ```
 
 ## Architecture
 
 ```
-AG-UI client (HTTP/SSE)
-        │
+Gradio UI (http://localhost:7860)
+        │ ADK Runner (run_async)
         ▼
-agents/main.py :9000  (FastAPI + ADKAgent)
-        │
-        └──► orchestrator/agent.py  (Google ADK — root agent)
-                │ ADK sub-agent delegation
-                ├──► med_finder/agent.py
-                │         └── tools.py  →  medicaments-api.giygas.dev (JSON)
-                └──► med_documentation/agent.py
-                          └── tools.py  →  base-donnees-publique.medicaments.gouv.fr (HTML)
+orchestrator/agent.py  (Google ADK — root agent)
+        │ ADK sub-agent delegation
+        ├──► med_finder/agent.py
+        │         └── tools.py  →  medicaments-api.giygas.dev (JSON)
+        └──► med_documentation/agent.py
+                  └── tools.py  →  base-donnees-publique.medicaments.gouv.fr (HTML)
 ```
 
 ## Agents
@@ -91,16 +89,11 @@ Lit la fiche officielle d'un médicament sur `base-donnees-publique.medicaments.
 
 ### ui (`agents/ui.py`)
 
-Interface Gradio locale pour tester les agents sans frontend externe.
-
-**Lancement :**
-```bash
-cd agents && uv run python ui.py   # http://localhost:7860
-```
+Interface Gradio — point d'entrée principal.
 
 **Layout :** deux colonnes — chat à gauche, iframe de la fiche officielle ANSM à droite.
 
-**Pattern :** utilise directement `Runner` (ADK) en mode `run_async`. Chaque auteur ADK (`orchestrator`, `med_finder`, `med_documentation`) génère une bulle distincte avec titre et emoji. La fiche HTML est injectée dans `state["current_med_documentation"]` par `med_documentation` et affichée dans un `<iframe srcdoc>`.
+**Pattern :** utilise `Runner` (ADK) en mode `run_async`. Chaque auteur ADK (`orchestrator`, `med_finder`, `med_documentation`) génère une bulle distincte avec titre et emoji. La fiche HTML est stockée dans `state["current_med_documentation"]` et affichée dans un `<iframe srcdoc>`.
 
 ### context_filter (`agents/context_filter.py`)
 
@@ -121,13 +114,13 @@ Callbacks `before_model_callback` partagés par tous les agents.
 
 | File | Role |
 |------|------|
-| `agents/main.py` | Point d'entrée — FastAPI + ADKAgent + uvicorn |
+| `agents/ui.py` | Point d'entrée — interface Gradio + ADK Runner |
 | `agents/context_filter.py` | Callbacks de filtrage du contexte LLM |
 | `agents/orchestrator/agent.py` | Agent orchestrateur |
 | `agents/med_finder/agent.py` | Agent de recherche ANSM |
 | `agents/med_documentation/agent.py` | Agent de lecture des fiches officielles |
 | `agents/pyproject.toml` | Dépendances Python (uv) |
-| `agents/.env` | Clés API et ports (non versionné) |
+| `agents/.env` | Clés API (non versionné) |
 
 ## Environment Variables
 
@@ -135,4 +128,3 @@ Callbacks `before_model_callback` partagés par tous les agents.
 |----------|---------|
 | `LLM_MODEL_NAME` | Tous les agents (ex: `claude-sonnet-4-6`) |
 | `ANTHROPIC_API_KEY` | Tous les agents (via LiteLlm) |
-| `ORCHESTRATOR_PORT` | Port d'écoute de `main.py` (défaut: 9000) |

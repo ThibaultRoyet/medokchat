@@ -1,6 +1,6 @@
 # medokchat
 
-Assistant médical multi-agent basé sur **Google ADK**, spécialisé dans les informations sur les médicaments français (base ANSM).
+Assistant médical multi-agent basé sur **Google ADK** et **Gradio**, spécialisé dans les informations sur les médicaments français (base ANSM).
 
 ## Fonctionnement
 
@@ -9,20 +9,13 @@ L'utilisateur pose une question sur un médicament. L'orchestrateur délègue :
 1. **`med_finder`** — identifie le médicament dans la base ANSM et retourne son CIS
 2. **`med_documentation`** — lit la fiche officielle (RCP, notice, bon usage) et répond à la question
 
-Le backend expose une API **AG-UI** (HTTP/SSE) sur le port 9000. Une UI **Gradio** locale est disponible pour tester rapidement.
-
 ## Lancement rapide
 
 ```bash
 cd agents
 cp ../.env.example .env      # remplir ANTHROPIC_API_KEY et LLM_MODEL_NAME
 uv sync
-
-# API AG-UI (port 9000)
-uv run python main.py
-
-# OU interface Gradio (port 7860)
-uv run python ui.py
+uv run python ui.py          # http://localhost:7860
 ```
 
 ## Variables d'environnement
@@ -31,23 +24,20 @@ uv run python ui.py
 |----------|-------------|
 | `LLM_MODEL_NAME` | Modèle Claude (ex: `claude-sonnet-4-6`) |
 | `ANTHROPIC_API_KEY` | Clé API Anthropic |
-| `ORCHESTRATOR_PORT` | Port de l'API AG-UI (défaut: `9000`) |
 
 ## Architecture
 
 ```
-AG-UI client (HTTP/SSE)
-        │
+Gradio UI (http://localhost:7860)
+        │ ADK Runner (run_async)
         ▼
-agents/main.py :9000  (FastAPI + ADKAgent)
-        │
-        └──► orchestrator/agent.py
-                ├──► med_finder/agent.py
-                │         search_medicaments → medicaments-api.giygas.dev
-                │         select_med → écrit state["current_med"]
-                └──► med_documentation/agent.py
-                          fetch_medication_doc → base-donnees-publique.medicaments.gouv.fr
-                          read_section → lecture depuis state["med_doc"]
+orchestrator/agent.py
+        ├──► med_finder/agent.py
+        │         search_medicaments → medicaments-api.giygas.dev
+        │         select_med → écrit state["current_med"]
+        └──► med_documentation/agent.py
+                  fetch_medication_doc → base-donnees-publique.medicaments.gouv.fr
+                  read_section → lecture depuis state["med_doc"]
 ```
 
 ## Sources de données

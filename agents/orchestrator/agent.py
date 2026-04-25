@@ -1,9 +1,20 @@
 import os
-from google.adk import Agent
-from google.adk.models import LiteLlm
+from typing import Optional
 
+from google.adk import Agent
+from google.adk.agents.callback_context import CallbackContext
+from google.adk.models import LiteLlm
+from google.genai import types
+
+from context_filter import keep_orchestrator_context
 from med_finder.agent import root_agent as med_finder_agent
 from med_documentation.agent import root_agent as med_documentation_agent
+
+
+def _before_agent_callback(callback_context: CallbackContext) -> Optional[types.Content]:
+    if "current_med" not in callback_context.state:
+        callback_context.state["current_med"] = "Aucun médicament sélectionné pour cette session."
+    return None
 
 root_agent = Agent(
     model=LiteLlm(
@@ -31,4 +42,6 @@ root_agent = Agent(
     Toutes tes réponses s'appuient uniquement sur ce que les agents te retournent.
     """,
     sub_agents=[med_finder_agent, med_documentation_agent],
+    before_agent_callback=_before_agent_callback,
+    before_model_callback=keep_orchestrator_context,
 )

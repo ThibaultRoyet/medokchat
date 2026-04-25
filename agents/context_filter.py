@@ -119,9 +119,6 @@ def keep_orchestrator_context(
     Les parts qui référencent d'autres sous-agents (ex. [med_finder]) sont supprimées.
     Un bloc 'For context:' qui n'a plus de contenu utile après filtrage est entièrement retiré.
     """
-    if not callback_context.state.get("current_med"):
-        callback_context.state["current_med"] = "Aucun médicament sélectionné pour cette session."
-
     contents = llm_request.contents
     if not contents:
         return None

@@ -4,48 +4,34 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**medokchat** is a monorepo for a multi-agent medical chat platform. The UI is a Next.js app using **CopilotKit + AG-UI**. The backend is a set of Python agents built on **Google ADK** and **LangGraph**, communicating via the **A2A protocol**.
+**medokchat** is a multi-agent medical chat backend built on **Google ADK**, exposing an **AG-UI** endpoint for frontend clients.
 
 ## Commands
-
-### Frontend
-
-```bash
-npm install          # Install JS dependencies
-npm run dev          # Start everything (UI + all agents) concurrently
-npm run dev:ui       # UI only — http://localhost:3000
-npm run build
-npm run lint
-```
-
-### Python agents (uv)
 
 ```bash
 # First-time setup
 cd agents && uv sync
 
-# Run individual agents
-npm run dev:orchestrator   # http://localhost:9000
-npm run dev:research        # http://localhost:9001
-npm run dev:analysis        # http://localhost:9002
+# Launch the orchestrator (http://localhost:9000)
+cd agents && uv run python main.py
 
-# Or directly with uv
-uv run --directory agents python orchestrator.py
+# Tests
+cd agents && uv run pytest
 ```
 
 ### Environment
 
 ```bash
-cp .env.example .env   # Then fill in GOOGLE_API_KEY and OPENAI_API_KEY
+cp .env.example agents/.env   # Then fill in ANTHROPIC_API_KEY and LLM_MODEL_NAME
 ```
 
 ## Architecture
 
 ```
-Browser (AG-UI client)
-        │ AG-UI Protocol (HTTP/SSE)
+AG-UI client (HTTP/SSE)
+        │
         ▼
-main.py :9000  (FastAPI + ADKAgent)
+agents/main.py :9000  (FastAPI + ADKAgent)
         │
         └──► orchestrator/agent.py  (Google ADK — root agent)
                 │ ADK sub-agent delegation
@@ -59,32 +45,38 @@ main.py :9000  (FastAPI + ADKAgent)
 
 ### orchestrator (`agents/orchestrator/`)
 
-Point d'entrée de toutes les requêtes utilisateur. Reçoit la question, décide quel(s) sous-agent(s) appeler et dans quel ordre, puis synthétise la réponse finale.
+Point d'entrée de toutes les requêtes utilisateur. Décide quel(s) sous-agent(s) appeler et dans quel ordre, puis synthétise la réponse finale.
+
+**State lu :** `state["current_med"]` — médicament courant de la session (initialisé par `before_agent_callback`)
 
 **Stratégie de délégation :**
-1. Toute mention d'un médicament → déléguer à `med_finder` pour identifier le CIS
-2. Question détaillée (posologie, contre-indications, notice…) → déléguer à `med_documentation` avec le CIS
+1. Médicament déjà en `current_med` → utiliser son CIS directement, ne pas rappeler `med_finder`
+2. Nouveau médicament mentionné → déléguer à `med_finder`
+3. Question clinique (posologie, contre-indications, notice…) → déléguer à `med_documentation`
 
 ### med_finder (`agents/med_finder/`)
 
-Recherche un médicament dans la base officielle ANSM via une API tierce et retient le médicament choisi en state.
-
-**Tool :** `search_medicaments(name)` — appelle `medicaments-api.giygas.dev/v1/medicaments`
-
-**State produit :** `state["med_informations"]` — dict complet du médicament (CIS, nom, forme, substances actives, statut)
-
-**Pattern :** L'agent peut faire jusqu'à 5 recherches pour affiner. Un `after_model_callback` détecte le marqueur `CHOIX_CIS: <id>` dans la réponse du LLM et écrit le médicament choisi en state.
-
-### med_documentation (`agents/med_documentation/`)
-
-Lit la fiche officielle d'un médicament sur `base-donnees-publique.medicaments.gouv.fr` à partir de son CIS et navigue dans son contenu pour répondre à des questions précises.
+Identifie un médicament dans la base ANSM et transfère le contrôle à l'orchestrateur.
 
 **Tools :**
 
 | Tool | Description |
 |------|-------------|
-| `fetch_medication_doc(cis)` | Télécharge `/medicament/{cis}/extrait`, parse les 4 onglets avec lxml, stocke tout dans `state["med_doc"]`, retourne la table des matières |
-| `read_section(tab, section_id)` | Lit une section depuis le state — zéro réseau, retourne `## titre\n\ncontenu` |
+| `search_medicaments(name)` | Appelle `medicaments-api.giygas.dev/v1/medicaments`, stocke les résultats dans `state["_med_search_results"]` |
+| `select_med(cis)` | Écrit le médicament choisi dans `state["med_informations"]` et `state["current_med"]`, puis `transfer_to_agent → orchestrator` |
+
+**Pattern :** jusqu'à 5 appels `search_medicaments` pour affiner, puis obligatoirement `select_med`.
+
+### med_documentation (`agents/med_documentation/`)
+
+Lit la fiche officielle d'un médicament sur `base-donnees-publique.medicaments.gouv.fr` à partir de son CIS.
+
+**Tools :**
+
+| Tool | Description |
+|------|-------------|
+| `fetch_medication_doc(cis)` | Télécharge `/medicament/{cis}/extrait`, parse les 4 onglets avec lxml, stocke dans `state["med_doc"]`, retourne la table des matières |
+| `read_section(tab, section_id)` | Lit une section depuis `state["med_doc"]` — zéro réseau, retourne `## titre\n\ncontenu` |
 
 **Onglets parsés :**
 
@@ -92,10 +84,19 @@ Lit la fiche officielle d'un médicament sur `base-donnees-publique.medicaments.
 |-----|---------|
 | `fiche-info` | Indications, composition, présentations, SMR/ASMR |
 | `rcp` | Résumé des Caractéristiques du Produit (sections 1–12, balisées `AmmAnnexeTitre1/2`) |
-| `notice` | Notice patient — sommaire extrait des liens `fr-sidemenu__link` |
+| `notice` | Notice patient — sections extraites des liens `fr-sidemenu__link` |
 | `bon-usage` | Documents HAS/ANSM de bon usage |
 
 **State produit :** `state["med_doc"] = {"cis": str, "tabs": {tab: {section_id: {"titre", "niveau", "contenu"}}}}`
+
+### context_filter (`agents/context_filter.py`)
+
+Callbacks `before_model_callback` partagés par tous les agents.
+
+| Fonction | Rôle |
+|----------|------|
+| `keep_last_invocation` | Tronque l'historique à la dernière invocation utilisateur |
+| `keep_orchestrator_context` | Dans les blocs `For context:` injectés par ADK, supprime les `function_call`/`function_response` des sous-agents et ne conserve que leurs réponses textuelles |
 
 ### Ajouter un nouvel agent
 
@@ -108,16 +109,17 @@ Lit la fiche officielle d'un médicament sur `base-donnees-publique.medicaments.
 | File | Role |
 |------|------|
 | `agents/main.py` | Point d'entrée — FastAPI + ADKAgent + uvicorn |
-| `agents/orchestrator/agent.py` | Définition de l'agent orchestrateur |
+| `agents/context_filter.py` | Callbacks de filtrage du contexte LLM |
+| `agents/orchestrator/agent.py` | Agent orchestrateur |
 | `agents/med_finder/agent.py` | Agent de recherche ANSM |
 | `agents/med_documentation/agent.py` | Agent de lecture des fiches officielles |
 | `agents/pyproject.toml` | Dépendances Python (uv) |
-| `.env` | Clés API et ports |
+| `agents/.env` | Clés API et ports (non versionné) |
 
 ## Environment Variables
 
 | Variable | Used by |
 |----------|---------|
-| `LLM_MODEL_NAME` | Tous les agents (ex: `claude-sonnet-4-5`) |
+| `LLM_MODEL_NAME` | Tous les agents (ex: `claude-sonnet-4-6`) |
 | `ANTHROPIC_API_KEY` | Tous les agents (via LiteLlm) |
 | `ORCHESTRATOR_PORT` | Port d'écoute de `main.py` (défaut: 9000) |

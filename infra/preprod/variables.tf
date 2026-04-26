@@ -29,8 +29,8 @@ variable "domain_name" {
 
 variable "app_subdomain" {
   type        = string
-  default     = "medokchat"
-  description = "Sous-domaine (ex: medokchat → medokchat.mondomaine.fr)"
+  default     = "app"
+  description = "Sous-domaine (ex: app → app.medokchat.fr)"
 }
 
 variable "ssh_public_key" {

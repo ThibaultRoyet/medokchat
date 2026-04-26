@@ -36,10 +36,10 @@ VPS Scaleway DEV1-S (2 vCPU, 2 GB RAM, ~4€/mois)
    | `SSH_PUBLIC_KEY` | Secret | Contenu de `~/.ssh/id_ed25519.pub` |
    | `ANTHROPIC_API_KEY` | Secret | Clé API Anthropic |
    | `REGISTRY` | Variable | `rg.fr-par.scw.cloud/medokchat` |
-   | `VPS_HOST` | Variable | `medokchat.mondomaine.fr` |
+   | `VPS_HOST` | Variable | `app.medokchat.fr` |
    | `SCW_PROJECT_ID` | Variable | ID du projet Scaleway |
-   | `DOMAIN_NAME` | Variable | `mondomaine.fr` |
-   | `APP_SUBDOMAIN` | Variable | `medokchat` |
+   | `DOMAIN_NAME` | Variable | `medokchat.fr` |
+   | `APP_SUBDOMAIN` | Variable | `app` |
    | `LLM_MODEL_NAME` | Variable | `claude-sonnet-4-6` |
 
 ## Provisionner le VPS (première fois)

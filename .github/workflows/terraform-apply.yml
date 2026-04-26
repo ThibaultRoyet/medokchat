@@ -92,17 +92,17 @@ jobs:
           IMAGE_TAG=latest
           DOMAIN=${{ vars.DOMAIN_NAME }}
           EOF
-          scp /tmp/app.env ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/.env
-          ssh ubuntu@${{ vars.VPS_HOST }} "chmod 600 /opt/medokchat/.env"
+          scp /tmp/app.env ubuntu@${{ steps.ip.outputs.value }}:/opt/medokchat/.env
+          ssh ubuntu@${{ steps.ip.outputs.value }} "chmod 600 /opt/medokchat/.env"
 
       - name: Sync compose & Caddy files
         run: |
-          scp infra/preprod/docker/docker-compose.yml ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/docker-compose.yml
-          scp infra/preprod/docker/Caddyfile ubuntu@${{ vars.VPS_HOST }}:/opt/medokchat/Caddyfile
+          scp infra/preprod/docker/docker-compose.yml ubuntu@${{ steps.ip.outputs.value }}:/opt/medokchat/docker-compose.yml
+          scp infra/preprod/docker/Caddyfile ubuntu@${{ steps.ip.outputs.value }}:/opt/medokchat/Caddyfile
 
       - name: Pull & restart
         run: |
-          ssh ubuntu@${{ vars.VPS_HOST }} << ENDSSH
+          ssh ubuntu@${{ steps.ip.outputs.value }} << ENDSSH
             set -e
             cd /opt/medokchat
             echo "${{ secrets.SCW_SECRET_KEY }}" | docker login ${{ vars.REGISTRY }} -u nologin --password-stdin

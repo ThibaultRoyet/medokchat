@@ -91,10 +91,5 @@ resource "scaleway_instance_server" "main" {
 }
 
 # ── DNS ───────────────────────────────────────────────────────────────────────
-resource "scaleway_domain_record" "app" {
-  dns_zone = var.domain_name
-  name     = var.app_subdomain
-  type     = "A"
-  data     = scaleway_instance_ip.main.address
-  ttl      = 300
-}
+# Géré manuellement dans Scaleway Console (Domains & DNS → medokchat.fr)
+# car le provider scaleway_domain_record v2.49 rejette le nom "app" (bug API)

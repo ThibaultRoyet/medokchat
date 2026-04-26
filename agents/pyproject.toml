@@ -17,6 +17,8 @@ dependencies = [
     "openai>=1.0.0",
     # UI
     "gradio>=5.0.0",
+    # HTML parsing (med_documentation)
+    "lxml>=5.0.0",
 ]
 
 [tool.uv]
